@@ -1,0 +1,77 @@
+[
+  {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/ia/index.html",
+      "/teaching/label/index.html",
+      "/teaching/r/index.html",
+      "/teaching/exec/index.html",
+      "/teaching/publishing/index.html",
+      "/teaching/risk/index.html",
+      "/teaching/games/index.html",
+      "/teaching/micro/index.html"
+    ]
+  },
+  {
+    "listing": "/publication/index.html",
+    "items": [
+      "/publication/Vote/index.html",
+      "/publication/labelprix/index.html",
+      "/publication/FDJ/index.html",
+      "/publication/strain/index.html",
+      "/publication/IPreform/index.html",
+      "/publication/gendersafe/index.html",
+      "/publication/conflict2/index.html",
+      "/publication/cs3/index.html",
+      "/publication/cnd/index.html",
+      "/publication/conflict1/index.html",
+      "/publication/Neuro/index.html",
+      "/publication/crowfund3/index.html",
+      "/publication/SocialPref/index.html",
+      "/publication/cbias/index.html",
+      "/publication/crowfund2/index.html",
+      "/publication/SVO/index.html",
+      "/publication/NutriScore/index.html",
+      "/publication/label/index.html",
+      "/publication/centipede/index.html",
+      "/publication/crowfund1/index.html",
+      "/publication/labelCND2/index.html",
+      "/publication/sound/index.html",
+      "/publication/exit/index.html",
+      "/publication/cs2/index.html",
+      "/publication/cs1/index.html",
+      "/publication/scrabble/index.html",
+      "/publication/gender/index.html",
+      "/publication/comparison/index.html",
+      "/publication/illusion/index.html",
+      "/publication/psychogda/index.html",
+      "/publication/labelCND1/index.html",
+      "/publication/pbias/index.html",
+      "/publication/bomb/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/hre/index.html",
+      "/projects/labelEU/index.html",
+      "/projects/eaa/index.html",
+      "/projects/labfield/index.html",
+      "/projects/METARET/index.html",
+      "/projects/beia/index.html",
+      "/projects/FAST-beliefs/index.html",
+      "/projects/EVRE1/index.html",
+      "/projects/EVRE2/index.html",
+      "/projects/drain/index.html",
+      "/projects/resources/index.html",
+      "/projects/replication/index.html"
+    ]
+  }
+]
