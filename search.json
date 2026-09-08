@@ -84,46 +84,67 @@
     "text": "Back to top"
   },
   {
-    "objectID": "graphs.html",
-    "href": "graphs.html",
-    "title": "Publications",
+    "objectID": "teaching/ia/index.html",
+    "href": "teaching/ia/index.html",
+    "title": "L’IA en économie expérimentale",
     "section": "",
-    "text": "Publications list\n\n\n Back to top"
+    "text": "Une intervention courte sur les nuisances, les possibilité, et les impacts sur les anciens et nouveaux programmes de recherche induits par l’entrée de force de l’IA dans la recherche en économie expérimentale.\nL’ia en économie expérimentale  – Paris 2026 – slides\n\n\n\n Back to top"
   },
   {
-    "objectID": "teaching/exec/index.html",
-    "href": "teaching/exec/index.html",
-    "title": "Experimental Economics: methods and applications",
+    "objectID": "teaching/r/index.html",
+    "href": "teaching/r/index.html",
+    "title": "Introduction to R and the tidyverse",
     "section": "",
-    "text": "This course changed along the years and can be adapted to the level of the students – Masters or PhD – and in the topics that are dealt with – more theoretical and foundational or more applied, to energy, environment, nutritional policies…\n\nMilan\nHere I share the latest iteration, delivered to colleagues in Milan in November 2025, with a focus in nutritional labels.\nSession 1: Why experiments?  – slides\nSession 2: Value elicitation  – slides\nSession 3: Consumer behaviour  – slides\nSession 4: Nutritional labels  – slides\n\n\nTurin\nIn Turin, to master students, I also focus on hands-on sessions where we run experiments and analyze data. Here are the slides for the hands-on sessions\nHands-on session 1: value elicitation via BDM  – slides\nHands-on session 2: risk elicitation  – slides\nHands-on session 3: attraction effect  – slides\n\n\nGrenoble\nIn Grenoble, I also focused on market games, social dilemmas, and environmental economics applications\nMarkets - slides\nSocial Dilemmas – slides\n\n\nValencia\nA shorter, more focused and clenaer presentation given at the Behavioral Bridge Summer School in Valencia in July 2026.\nIntro to experiments and eliciting value – slides\n\n\n\n\n Back to top"
+    "text": "The course is hosted on github/gitlab, here I share the pdf version of the original html revealJS slides.\nLecture 0: intro – slides\nLecture 1: tools of the trade – slides\nLecture 2: data wrangling part 1 – slides\nLecture 3: plotting part 1 – slides\nLecture 4: data wrangling part 2 – slides\nLecture 5: plotting part 2 – slides\nLecture 6: tidy statistical analysis – slides\nLecture 7: nice tables – slides\n\n\n\n Back to top"
   },
   {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching & talks",
+    "objectID": "teaching/games/index.html",
+    "href": "teaching/games/index.html",
+    "title": "Introduction to Game Theory",
     "section": "",
-    "text": "L’IA en économie expérimentale\n\n\n French \n\n\n\nteaching\n\nAI\n\nexperimental economics\n\n\n\nUne présentation préparée pour la journée ‘L’IA dans les recherches sur les comportements alimentaires’, INRAE Paris, 10 juin 2026.\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperiments on food policy: labels\n\n\n English · French · Italian \n\n\n\nteaching\n\nlabeling\n\n\n\nA flexible intervention that highlights different approach to the experimental study of food policies, in the lab and in the field, covering studies ran in GAEL, Grenoble…\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to R and the tidyverse\n\n\n English · French \n\n\n\nteaching\n\nR\n\nstatistics\n\n\n\nA 24 hour course about the basis of using R using the tidyverse. Data cleaning and tidying, wrangling, plotting, tables, tidy statistical analysis, data reporting using…\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperimental Economics: methods and applications\n\n\n English \n\n\n\nteaching\n\nexperiments\n\nbehavior\n\n\n\nA full course on experimental economics with an eye to its applications to behavioural public policy. Starting from the epistemology of experiments, the course covers a…\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nScientific Publishing 101\n\n\n English · French · Italian \n\n\n\nteaching\n\npublishing\n\n\n\nA flexible intervention that covers current trends in scientific publishing, inspired by work done in ‘The Strain on Scientific Publishing’ and ’The Drain of Scientific…\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nEliciting Risk Attitudes\n\n\n English · French · Italian \n\n\n\nteaching\n\npublishing\n\n\n\nA flexible intervention that covers the state of risk elicitation and my current research on the external validity of laboratory measures of risk attitudes.\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Game Theory\n\n\n English \n\n\n\nteaching\n\ngame theory\n\n\n\nA short course on simple topics in Game Theory – strategies, equilibria, static and dynamic games, imperfect information, bargaining.\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced microeconomics\n\n\n English \n\n\n\nteaching\n\nmicro\n\n\n\nCourse and exercises to survive advanced micro on the infamous Mas-Colell, Winston and Greene advanced micro manual. Includes the recreation of all hi-res figures from the…\n\n\n\nP. Crosetto\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "I was TA for Games and Strategy with Prof. Marco Scarsini in LUISS in 2010. The course was an introduction to game theory. The slides cover static and dynamic games with perfect information. The main textbook was Osborne, Rubinstein, ‘An Introduction to Game Theory’. Exercises and solutions owe much to the work of the Authors as well as to the help of Prof. Scarsini. Typos and small mistakes can be present here and there, and they are entirely mine.\nAll the lectures are made up of some slides exposing some theory and used as a support for solving exercises. Solutions are not complete; sometimes only the support graphics are present.\nLecture 1 – Prisoner Dilemma, Nash Equilibrium, Oligopoly I – slides\nLecture 2 – Mixed Strategies – slides\nLecture 3 – Extensive Games, Stackelberg Oligopoly, Ultimatum Game – slides\nLecture 4 – Repeated games – slides\nLecture 5 – Bargaining I: Rubinstein, Nash – slides\nLecture 6 – Bargaining II: Nash, Allais paradox, Kalai-Smorodinsky - slides\nLecture 7 – Core – slides"
   },
   {
-    "objectID": "teaching/label/index.html",
-    "href": "teaching/label/index.html",
-    "title": "Experiments on food policy: labels",
-    "section": "",
-    "text": "This intervention can span from a short introduction to a larger course on the use of experimental economics to tackle policies related to food consumption.\nIntervention to a Food Policy webinar in Parma, Italy - Italian - slides\nLecture at the LSE Executive Masters in behavioral Sicence - English - slides\nLecture at the 2026 Behavioral Bridge Summer School, Valencia - English - slides\n\n\n\n Back to top"
+    "objectID": "teaching/games/index.html#images-and-plots",
+    "href": "teaching/games/index.html#images-and-plots",
+    "title": "Introduction to Game Theory",
+    "section": "Images and plots",
+    "text": "Images and plots\nAs part of the course, I also produced several hi-res images and plots related to Micro and reproducing MGW’s images – or more generally graphs needed to solve MWG’s exercises."
   },
   {
-    "objectID": "teaching/publishing/index.html",
-    "href": "teaching/publishing/index.html",
-    "title": "Scientific Publishing 101",
-    "section": "",
-    "text": "An overview of results in the analysis of the “Strain team” of trends in scientific publishing, slowed down and with added references to turn it into a course.\nHere I share a version used in Milan in 2025, called “This is Water” as it focuses on scientific publishing, the water in which all scientists swim, sometimes without giving it much notice.\nThis is Water – Milan 2025 – slides\n\n\n\n Back to top"
+    "objectID": "teaching/games/index.html#gallery",
+    "href": "teaching/games/index.html#gallery",
+    "title": "Introduction to Game Theory",
+    "section": "Gallery",
+    "text": "Gallery"
   },
   {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Current talks",
+    "objectID": "teaching/risk/index.html",
+    "href": "teaching/risk/index.html",
+    "title": "Eliciting Risk Attitudes",
     "section": "",
-    "text": "Back to top"
+    "text": "An intervention on the state of risk elicitation in experimental economics, guiding students from the basics to the frontier of current ongoing research. Conceived for students at the Parise PSE Summer School.\nEliciting risk attitudes – Methods, internal & external validity, competing approaches – slides\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "teaching/micro/index.html",
+    "href": "teaching/micro/index.html",
+    "title": "Advanced microeconomics",
+    "section": "",
+    "text": "I was TA for Microeconomics at Economics and Political Studies in Milano – Statale with Prof. Franco Donzelli in 2010.\nWe used the (in)famous Mas-Colell, Whinston and Green, ‘Microeconomic Theory’ – and these are one of the few resources worldwide that provide accurate and complete solution to MWG’s problem sets.\nAll the lectures are made up of a problem set and its solution. The solution comes in two forms: slides and handout. The embedded graphics are mainly done in Inkscape and can be downloaded separately from the companion Plots and Graphs page. The .tex sources are available upon request. Just send me an email.\nLecture 1 – Preferences and W.A.R.P. – problem set – handout – slides\nLecture 2 – Budget set and demand I – problem set – handout – slides\nLecture 3 – Demand II, Cobb-Douglas – problem set – handout – slides\nLecture 4 – Duality – problem set – handout – slides\nLecture 5 – Production – problem set – handout – slides\nLecture 6 – Edgeworth box – problem set– handout – slides\nLecture 7 – Robinson Crusoe 1×1 economy – problem set – handout – slides"
+  },
+  {
+    "objectID": "teaching/micro/index.html#images-and-plots",
+    "href": "teaching/micro/index.html#images-and-plots",
+    "title": "Advanced microeconomics",
+    "section": "Images and plots",
+    "text": "Images and plots\nAs part of the course, I also produced several hi-res images and plots related to Micro and reproducing MGW’s images – or more generally graphs needed to solve MWG’s exercises."
+  },
+  {
+    "objectID": "teaching/micro/index.html#gallery",
+    "href": "teaching/micro/index.html#gallery",
+    "title": "Advanced microeconomics",
+    "section": "Gallery",
+    "text": "Gallery"
   },
   {
     "objectID": "publication/gender/index.html",
@@ -364,67 +385,32 @@
     "text": "Back to top"
   },
   {
-    "objectID": "teaching/micro/index.html",
-    "href": "teaching/micro/index.html",
-    "title": "Advanced microeconomics",
+    "objectID": "teaching/publishing/index.html",
+    "href": "teaching/publishing/index.html",
+    "title": "Scientific Publishing 101",
     "section": "",
-    "text": "I was TA for Microeconomics at Economics and Political Studies in Milano – Statale with Prof. Franco Donzelli in 2010.\nWe used the (in)famous Mas-Colell, Whinston and Green, ‘Microeconomic Theory’ – and these are one of the few resources worldwide that provide accurate and complete solution to MWG’s problem sets.\nAll the lectures are made up of a problem set and its solution. The solution comes in two forms: slides and handout. The embedded graphics are mainly done in Inkscape and can be downloaded separately from the companion Plots and Graphs page. The .tex sources are available upon request. Just send me an email.\nLecture 1 – Preferences and W.A.R.P. – problem set – handout – slides\nLecture 2 – Budget set and demand I – problem set – handout – slides\nLecture 3 – Demand II, Cobb-Douglas – problem set – handout – slides\nLecture 4 – Duality – problem set – handout – slides\nLecture 5 – Production – problem set – handout – slides\nLecture 6 – Edgeworth box – problem set– handout – slides\nLecture 7 – Robinson Crusoe 1×1 economy – problem set – handout – slides"
+    "text": "An overview of results in the analysis of the “Strain team” of trends in scientific publishing, slowed down and with added references to turn it into a course.\nHere I share a version used in Milan in 2025, called “This is Water” as it focuses on scientific publishing, the water in which all scientists swim, sometimes without giving it much notice.\nThis is Water – Milan 2025 – slides\n\n\n\n Back to top"
   },
   {
-    "objectID": "teaching/micro/index.html#images-and-plots",
-    "href": "teaching/micro/index.html#images-and-plots",
-    "title": "Advanced microeconomics",
-    "section": "Images and plots",
-    "text": "Images and plots\nAs part of the course, I also produced several hi-res images and plots related to Micro and reproducing MGW’s images – or more generally graphs needed to solve MWG’s exercises."
-  },
-  {
-    "objectID": "teaching/micro/index.html#gallery",
-    "href": "teaching/micro/index.html#gallery",
-    "title": "Advanced microeconomics",
-    "section": "Gallery",
-    "text": "Gallery"
-  },
-  {
-    "objectID": "teaching/risk/index.html",
-    "href": "teaching/risk/index.html",
-    "title": "Eliciting Risk Attitudes",
+    "objectID": "teaching/label/index.html",
+    "href": "teaching/label/index.html",
+    "title": "Experiments on food policy: labels",
     "section": "",
-    "text": "An intervention on the state of risk elicitation in experimental economics, guiding students from the basics to the frontier of current ongoing research. Conceived for students at the Parise PSE Summer School.\nEliciting risk attitudes – Methods, internal & external validity, competing approaches – slides\n\n\n\n Back to top"
+    "text": "This intervention can span from a short introduction to a larger course on the use of experimental economics to tackle policies related to food consumption.\nIntervention to a Food Policy webinar in Parma, Italy - Italian - slides\nLecture at the LSE Executive Masters in behavioral Sicence - English - slides\nLecture at the 2026 Behavioral Bridge Summer School, Valencia - English - slides\n\n\n\n Back to top"
   },
   {
-    "objectID": "teaching/games/index.html",
-    "href": "teaching/games/index.html",
-    "title": "Introduction to Game Theory",
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching & talks",
     "section": "",
-    "text": "I was TA for Games and Strategy with Prof. Marco Scarsini in LUISS in 2010. The course was an introduction to game theory. The slides cover static and dynamic games with perfect information. The main textbook was Osborne, Rubinstein, ‘An Introduction to Game Theory’. Exercises and solutions owe much to the work of the Authors as well as to the help of Prof. Scarsini. Typos and small mistakes can be present here and there, and they are entirely mine.\nAll the lectures are made up of some slides exposing some theory and used as a support for solving exercises. Solutions are not complete; sometimes only the support graphics are present.\nLecture 1 – Prisoner Dilemma, Nash Equilibrium, Oligopoly I – slides\nLecture 2 – Mixed Strategies – slides\nLecture 3 – Extensive Games, Stackelberg Oligopoly, Ultimatum Game – slides\nLecture 4 – Repeated games – slides\nLecture 5 – Bargaining I: Rubinstein, Nash – slides\nLecture 6 – Bargaining II: Nash, Allais paradox, Kalai-Smorodinsky - slides\nLecture 7 – Core – slides"
+    "text": "L’IA en économie expérimentale\n\n\n French \n\n\n\nteaching\n\nAI\n\nexperimental economics\n\n\n\nUne présentation préparée pour la journée ‘L’IA dans les recherches sur les comportements alimentaires’, INRAE Paris, 10 juin 2026.\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperiments on food policy: labels\n\n\n English · French · Italian \n\n\n\nteaching\n\nlabeling\n\n\n\nA flexible intervention that highlights different approach to the experimental study of food policies, in the lab and in the field, covering studies ran in GAEL, Grenoble…\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to R and the tidyverse\n\n\n English · French \n\n\n\nteaching\n\nR\n\nstatistics\n\n\n\nA 24 hour course about the basis of using R using the tidyverse. Data cleaning and tidying, wrangling, plotting, tables, tidy statistical analysis, data reporting using…\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nExperimental Economics: methods and applications\n\n\n English \n\n\n\nteaching\n\nexperiments\n\nbehavior\n\n\n\nA full course on experimental economics with an eye to its applications to behavioural public policy. Starting from the epistemology of experiments, the course covers a…\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nScientific Publishing 101\n\n\n English · French · Italian \n\n\n\nteaching\n\npublishing\n\n\n\nA flexible intervention that covers current trends in scientific publishing, inspired by work done in ‘The Strain on Scientific Publishing’ and ’The Drain of Scientific…\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nEliciting Risk Attitudes\n\n\n English · French · Italian \n\n\n\nteaching\n\npublishing\n\n\n\nA flexible intervention that covers the state of risk elicitation and my current research on the external validity of laboratory measures of risk attitudes.\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Game Theory\n\n\n English \n\n\n\nteaching\n\ngame theory\n\n\n\nA short course on simple topics in Game Theory – strategies, equilibria, static and dynamic games, imperfect information, bargaining.\n\n\n\nP. Crosetto\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced microeconomics\n\n\n English \n\n\n\nteaching\n\nmicro\n\n\n\nCourse and exercises to survive advanced micro on the infamous Mas-Colell, Winston and Greene advanced micro manual. Includes the recreation of all hi-res figures from the…\n\n\n\nP. Crosetto\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "teaching/games/index.html#images-and-plots",
-    "href": "teaching/games/index.html#images-and-plots",
-    "title": "Introduction to Game Theory",
-    "section": "Images and plots",
-    "text": "Images and plots\nAs part of the course, I also produced several hi-res images and plots related to Micro and reproducing MGW’s images – or more generally graphs needed to solve MWG’s exercises."
-  },
-  {
-    "objectID": "teaching/games/index.html#gallery",
-    "href": "teaching/games/index.html#gallery",
-    "title": "Introduction to Game Theory",
-    "section": "Gallery",
-    "text": "Gallery"
-  },
-  {
-    "objectID": "teaching/r/index.html",
-    "href": "teaching/r/index.html",
-    "title": "Introduction to R and the tidyverse",
+    "objectID": "teaching/exec/index.html",
+    "href": "teaching/exec/index.html",
+    "title": "Experimental Economics: methods and applications",
     "section": "",
-    "text": "The course is hosted on github/gitlab, here I share the pdf version of the original html revealJS slides.\nLecture 0: intro – slides\nLecture 1: tools of the trade – slides\nLecture 2: data wrangling part 1 – slides\nLecture 3: plotting part 1 – slides\nLecture 4: data wrangling part 2 – slides\nLecture 5: plotting part 2 – slides\nLecture 6: tidy statistical analysis – slides\nLecture 7: nice tables – slides\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "teaching/ia/index.html",
-    "href": "teaching/ia/index.html",
-    "title": "L’IA en économie expérimentale",
-    "section": "",
-    "text": "Une intervention courte sur les nuisances, les possibilité, et les impacts sur les anciens et nouveaux programmes de recherche induits par l’entrée de force de l’IA dans la recherche en économie expérimentale.\nL’ia en économie expérimentale  – Paris 2026 – slides\n\n\n\n Back to top"
+    "text": "This course changed along the years and can be adapted to the level of the students – Masters or PhD – and in the topics that are dealt with – more theoretical and foundational or more applied, to energy, environment, nutritional policies…\n\nMilan\nHere I share the latest iteration, delivered to colleagues in Milan in November 2025, with a focus in nutritional labels.\nSession 1: Why experiments?  – slides\nSession 2: Value elicitation  – slides\nSession 3: Consumer behaviour  – slides\nSession 4: Nutritional labels  – slides\n\n\nTurin\nIn Turin, to master students, I also focus on hands-on sessions where we run experiments and analyze data. Here are the slides for the hands-on sessions\nHands-on session 1: value elicitation via BDM  – slides\nHands-on session 2: risk elicitation  – slides\nHands-on session 3: attraction effect  – slides\n\n\nGrenoble\nIn Grenoble, I also focused on market games, social dilemmas, and environmental economics applications\nMarkets - slides\nSocial Dilemmas – slides\n\n\nValencia\nA shorter, more focused and clenaer presentation given at the Behavioral Bridge Summer School in Valencia in July 2026.\nIntro to experiments and eliciting value – slides\n\n\n\n\n Back to top"
   },
   {
     "objectID": "blog.html",

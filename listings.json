@@ -1,18 +1,5 @@
 [
   {
-    "listing": "/teaching/index.html",
-    "items": [
-      "/teaching/ia/index.html",
-      "/teaching/label/index.html",
-      "/teaching/r/index.html",
-      "/teaching/exec/index.html",
-      "/teaching/publishing/index.html",
-      "/teaching/risk/index.html",
-      "/teaching/games/index.html",
-      "/teaching/micro/index.html"
-    ]
-  },
-  {
     "listing": "/publication/index.html",
     "items": [
       "/publication/Vote/index.html",
@@ -48,6 +35,19 @@
       "/publication/labelCND1/index.html",
       "/publication/pbias/index.html",
       "/publication/bomb/index.html"
+    ]
+  },
+  {
+    "listing": "/teaching/index.html",
+    "items": [
+      "/teaching/ia/index.html",
+      "/teaching/label/index.html",
+      "/teaching/r/index.html",
+      "/teaching/exec/index.html",
+      "/teaching/publishing/index.html",
+      "/teaching/risk/index.html",
+      "/teaching/games/index.html",
+      "/teaching/micro/index.html"
     ]
   },
   {
