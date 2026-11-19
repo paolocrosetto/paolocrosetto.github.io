@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>**Paolo Crosetto**</title>
+<link>https://paolocrosetto.github.io/blog/</link>
+<atom:link href="https://paolocrosetto.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Researcher, father, whatever.</description>
+<image>
+<url>https://paolocrosetto.github.io/profile.jpg</url>
+<title>**Paolo Crosetto**</title>
+<link>https://paolocrosetto.github.io/blog/</link>
+</image>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Mon, 09 Jun 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Springer Nature Discovers MDPI</title>
+  <link>https://paolocrosetto.github.io/blog/2025-06-10-springer-nature-discovers-mdpi/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2025-06-10-springer-nature-discovers-mdpi/thumbn.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Meme: a student labelled Springer Nature copies from the exam sheet of a student labelled MDPI"></p>
+</figure>
+</div>
+<p>Ambiguous one-word journal titles (“Foods”, “Plants”) used to be an MDPI trademark. Springer Nature’s “Discover” series now copies them almost one for one (25 of its 66 journals share an MDPI name) along with the same explosive growth and impact inflation, and there is a mini-game to check whether you can tell them apart.</p>
+<p><strong><a href="https://the-strain-on-scientific-publishing.github.io/website/posts/discover_nature/index.html">Read the full post on The Daily Strain →</a></strong></p>
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Written with Mark Hanson, Pablo Gómez Barreiro and Dan Brockington for <a href="https://the-strain-on-scientific-publishing.github.io/website/post.html">The Daily Strain</a>, the blog of our work on <a href="../../publication/strain/">the strain on scientific publishing</a>.</p>
+</div>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>scientific publishing</category>
+  <guid>https://paolocrosetto.github.io/blog/2025-06-10-springer-nature-discovers-mdpi/</guid>
+  <pubDate>Mon, 09 Jun 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://paolocrosetto.github.io/blog/2025-06-10-springer-nature-discovers-mdpi/thumbn.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Response to Frontiers: bad bibliometrics?</title>
+  <link>https://paolocrosetto.github.io/blog/2024-03-13-response-to-frontiers/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2024-03-13-response-to-frontiers/thumbn2.png" class="img-fluid figure-img" style="width:55.0%" alt="Illustration of three hands pointing at a bar chart on a screen"></p>
+<figcaption>Illustration by Jasmina El Bouamraoui and Karabo Poppy Moletsane, CC0 1.0</figcaption>
+</figure>
+</div>
+<p>A Frontiers blog post (“Bad bibliometrics don’t add up for research…”) accused us of editing, cutting and omitting data in our preprint <em>The Strain on Scientific Publishing</em>. Our reply sets the record straight on the data Frontiers says it shared with us, on why our scraped data are under embargo, and on the claims they attribute to us that we never made.</p>
+<p><strong><a href="https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/index.html">Read the full post on The Daily Strain →</a></strong></p>
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Written with Mark Hanson, Pablo Gómez Barreiro and Dan Brockington for <a href="https://the-strain-on-scientific-publishing.github.io/website/post.html">The Daily Strain</a>, the blog of our work on <a href="../../publication/strain/">the strain on scientific publishing</a>.</p>
+</div>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>scientific publishing</category>
+  <guid>https://paolocrosetto.github.io/blog/2024-03-13-response-to-frontiers/</guid>
+  <pubDate>Tue, 12 Mar 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://paolocrosetto.github.io/blog/2024-03-13-response-to-frontiers/thumbn2.png" medium="image" type="image/png" height="112" width="144"/>
+</item>
+<item>
+  <title>The Strain on Scientific Publishing data explorer</title>
+  <link>https://paolocrosetto.github.io/blog/2024-03-13-strain-data-explorer/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2024-03-13-strain-data-explorer/thumbn.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%" alt="The Strain Explorer logo over a line chart of article growth by publisher"></p>
+</figure>
+</div>
+<p>Legal advice is clear that we cannot share the raw web-scraped data behind <em>The Strain on Scientific Publishing</em>, but we can share what we built on it. This post announces the beta of the Strain data explorer, an app that reports growth, special-issue shares, turnaround times and impact inflation for any journal or publisher, together with guides to rebuild the public part of the data yourself.</p>
+<p><strong><a href="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/index.html">Read the full post on The Daily Strain →</a></strong></p>
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Written with Pablo Gómez Barreiro, Mark Hanson and Dan Brockington for <a href="https://the-strain-on-scientific-publishing.github.io/website/post.html">The Daily Strain</a>, the blog of our work on <a href="../../publication/strain/">the strain on scientific publishing</a>.</p>
+</div>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>scientific publishing</category>
+  <guid>https://paolocrosetto.github.io/blog/2024-03-13-strain-data-explorer/</guid>
+  <pubDate>Tue, 12 Mar 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://paolocrosetto.github.io/blog/2024-03-13-strain-data-explorer/thumbn.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Is MDPI a predatory publisher?</title>
+  <link>https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Originally published on my old blog, <a href="https://paolocrosetto.wordpress.com/2021/04/12/is-mdpi-a-predatory-publisher/">paolocrosetto.wordpress.com</a>, on 12 April 2021. The comment thread (including Volker Beckmann’s replies mentioned below) is still there. For my later work on scientific publishing, see <a href="../../publication/strain/">The Strain on Scientific Publishing</a>, <a href="../../projects/drain/">The Drain of Scientific Publishing</a> and <a href="../../projects/eaa/">guest editors publishing in their own special issues</a>.</p>
+</div>
+</div>
+</div>
+<p><strong>Edit April 20th, 2021:</strong> thanks to <em><a href="https://twitter.com/ChristosCPetrou">Christos Petrou</a> I found a bug in my code. I was considering both “Section” and “Collection” articles as Speical Issue. The whole analysis has been changed to accommodate the new data. I also acknowledged in the text the arguments of Volker Beckmann, who develops a coherent defense of MDPI practices and disagrees with my overall take; and inserted references to what MDPI (and traditional publishers) are doing for the Global South inline at the end of the piece, thanks to input from Mister Sew, Ethiopia.</em></p>
+<p>This post is about <a href="https://www.mdpi.com/">MDPI</a>, the Multidisciplinary Digital Publishing Institute, an Open-Access only scientific publisher.</p>
+<p>The post aims to answer the question in the title: “<em>Is MDPI a predatory publisher?</em>” with some data I scraped from the MDPI website, and some personal opinions.</p>
+<section id="tldr-main-message" class="level2">
+<h2 class="anchored" data-anchor-id="tldr-main-message">Tl;dr: main message</h2>
+<p>So, is MDPI predatory or not? I think it has elements of <strong>both</strong>. I would name their methods <strong>aggressive rent extracting</strong>, rather than predatory. And I also think that their current methods &amp; growth rate are likely to make them shift towards <strong>more predatory</strong> over time.</p>
+<p>MDPI publishes good papers in good journals, but it also employs some strategies that are proper to predatory publishers. I think that the success of MDPI in recent years is due to the creative combination of these two apparently contradicting strategy. One — the good journals with high quality — creates a rent that the other — spamming hundreds of colleagues to solicit papers, an astonishing increase in Special Issues, publishing papers as fast as possible — exploits.This strategy makes a lot of sense for MDPI, who shows strong growth rates and is <em>en route</em> to become the largest open access publisher in the world. But I don’t think it is a sustainable strategy. It suffers from basic collective action problems, that might deal a lot of damage to MDPI first, and, most importantly, to scientific publishing in general.</p>
+<p>So that’s the punchline. Care to see where it stems from? In the following I will</p>
+<ul>
+<li>focus on the terms of the problem;</li>
+<li>develop an argument as to <em>how</em> the MDPI model works;</li>
+<li>try to give some elements as to <em>why</em> the model was so successful;</li>
+<li>explain why I think the model is <em>not sustainable</em> and is bound to get worse over time.</li>
+</ul>
+<p>I’ll do so using some intuitions from social dilemmas and econ 101, a handful of personal ideas, and scraped data from MDPI’s website. The data cover the 74 MDPI journal that have an Impact Factor. They represent about 90% of all MDPI published articles in 2020 (somewhat less for the previous years, as MDPI growth has concentrated in their bigger journals. You find the data &amp; scripts to reproduce the analysis in the <a href="https://github.com/paolocrosetto/MDPI_special_issues">dedicated github page</a>.</p>
+<p>Ready? Let’s go.</p>
+</section>
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
+<p>Scientists are by and large puzzled by MDPI.</p>
+<p>On the one hand, MDPI publishes journals with high impact factor (18 journals have an IF higher than 4) many of which are indexed in Web of Science. Many, if not most papers are good. Several distinguished colleagues in nearly all fields served as Guest Editors or as Editors for their journals, often reporting positive assessments. MDPI is Open Access, so it does not contribute to the <em>very</em> lucrative rent-extraction at the base of Elsevier &amp; other traditional publishers. MDPI’s editing is fast, reliable, professional; publication on the website is swift, efficient and smooth — all things that are hard to say of other, traditional, publishers. Several MDPI journals are included in the rankings used by different states to evaluate research and grant promotions to academics, for instance Sustainability is “classe A”, the highest possible rank, in Italy (source: <a href="https://www.anvur.it/wp-content/uploads/2018/04/Area_08_CLA_V_quad.pdf">ANVUR</a>).</p>
+<p>On the other hand, MDPI is known for aggressively spamming academics to edit special issues, often in fields that are far away from the expertise of the recipient of the frequent and insisting emails. Twitter is full of colleagues complaining that they get several invitations <em>per week</em> to contribute to journals they didn’t know existed and that lie outside of their domains, for instance <a href="https://twitter.com/MartinKNielsen/status/1380190718392590337?s=20">here</a>, <a href="https://twitter.com/Azofra_LM/status/1374027425630261250?s=20">here</a> or <a href="https://twitter.com/BadAlderman/status/1291717423993950208?s=20">here</a>. MDPI even <a href="https://twitter.com/Jeffrey_Beall/status/1376534050656018435?s=20">asked Jeffrey Beall</a>, the author of <a href="https://beallslist.net/">Beall’s list of predatory publishers</a>, to edit a Special Issue in a field that is not his own. It gets further than annoying emails, though. In 2018 the whole editorial board of Nutrients, one of the most prestigious MDPI journals, <a href="https://www.sciencemag.org/news/2018/09/open-access-editors-resign-after-alleged-pressure-publish-mediocre-papers#:~:text=All%2010%20senior%20editors%20of,of%20mediocre%20quality%20and%20importance.">resigned en-masse</a> lamenting pressures from the publisher to lower the quality bar and let in more papers.</p>
+<p>This duality has generated some debates in several different places, among others in two posts by Dan Brockington <a href="https://danbrockington.com/2020/07/23/mdpi-journals-2015-to-2019/">here</a> and <a href="https://danbrockington.com/2019/12/04/an-open-letter-to-mdpi-publishing/">here</a>, in a <a href="https://ideas4sustainability.wordpress.com/2020/10/30/why-not-to-publish-in-sustainability-and-youre-welcome-to-share-this-post/">post on the ideas4sustainability</a> blog by Joern Fischer, and in the <a href="https://scholarlykitchen.sspnet.org/2020/08/10/guest-post-mdpis-remarkable-growth/">scholarly kitchen blog</a>.</p>
+<p>A predatory publisher is a journal that would publish anything — usually in return for money. MDPI rejection rates make this argument hard to sustain. Yet, MDPI is using some of the same techniques of predatory journals. So the question is simple: if you are a scientist, should you work with MDPI? Submit your paper? Review? (Guest) edit for them? Is MDPI predatory?</p>
+</section>
+<section id="mdpis-growth-how" class="level2">
+<h2 class="anchored" data-anchor-id="mdpis-growth-how">MDPI’s growth: how?</h2>
+<p>MDPI has had an impressive growth rate in the last years. It went from publishing 36 thousand articles in 2017 to 167 thousands in 2020. MDPI follows the APC publishing model, whereby accepted articles have to pay an Article Processing Charge (APC) before they are published. The APC has increased over time at MDPI. It can go up to more than 2000 CHF — MDPI is based in Switzerland — but there are several waivers and discounts. MDPI reports the average APC per article in 2020 amounted to 1180 €. Calculations by Dan Brockington show their revenue increasing from 14 mln $ in 2015 to 191 mln $ in 2020.</p>
+<p>To know more about them, see their <a href="https://res.mdpi.com/data/2020_web.pdf">Annual Report 2020</a>.</p>
+<p>How did MDPI reach such high levels of growth? By cleverly exploiting the publish or perish policy widespread in academia, the fact that several countries mandate or suggest Open Access publications, and the rise of formal requirements for tenure and promotion within academia. But this state of affairs is independent of MDPI and anyone could have profited from it, though didn’t. So how?</p>
+<p>As far as I can see, the success of MDPI relies on two key pillars: a lot of <strong>special issues</strong> and a very <strong>fast turnaround</strong>.</p>
+<section id="an-explosion-of-special-issues" class="level3">
+<h3 class="anchored" data-anchor-id="an-explosion-of-special-issues">An explosion of Special Issues</h3>
+<p>Traditional journals have a fixed number of issues per year — say, 12 — and then a low to very low number of special issues, that can cover a particular topic, celebrate the work of an important scholar, or collect papers from conferences. MDPI journals tend to follow the same model, only that the number of special issues has increased in time, to the point of equaling, surpassing, and finally dwarfing the number of normal issues. Moreover, special issues are usually proposed by a group of scientists to the editors of the journal, who accept or reject the offer. At MDPI, it is the <em>publisher</em> who sends out invitations for Special Issue, and it is unclear which role, if any, the editorial board of the normal issues has in the process.</p>
+<p>Virtually all of MDPI’s growth in the last years can be traced back to Special Issues.</p>
+<p>The figure below shows the growth in articles for 74 journals with an IF at MDPI, dividing them between articles published in normal issues, special issues, collections and sections. Sections are a way to create several distinct branches of a sigle journal. Collections seem more similar to special issues, since they have their own collection editor. Special issues covered already the majority of papers in 2017 (it was not so earlier on, but I have article data from 2017 only), but grew rapidly from then on. While the number of normal issue articles increased 2.6 times between 2016 and 2020, the number of SI articles increased 7.5 times. At the same time, the number of articles in Sections increased 9.6 times, while Collections increased by 1.4 times. Articles in SI now account for 68.3% of all articles published in these 74 journals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/img/overall_articles_si_waffle.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+<p>MDPI journals are becoming more differentiated, through the use of Sections, and they rely more and more on special issues.</p>
+<p>The explosive SI growth is reflected also in the number of special issues, overall (table) and by journal (figure).</p>
+<table class="caption-top table">
+<caption>Number of Special Issues at 74 MDPI journals with an IF. * open special issues with a closing date in 2021</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">2013</th>
+<th style="text-align: center;">2014</th>
+<th style="text-align: center;">2015</th>
+<th style="text-align: center;">2016</th>
+<th style="text-align: center;">2017</th>
+<th style="text-align: center;">2018</th>
+<th style="text-align: center;">2019</th>
+<th style="text-align: center;">2020</th>
+<th style="text-align: center;">2021*</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">388</td>
+<td style="text-align: center;">475</td>
+<td style="text-align: center;">710</td>
+<td style="text-align: center;">990</td>
+<td style="text-align: center;">1386</td>
+<td style="text-align: center;">2342</td>
+<td style="text-align: center;">4096</td>
+<td style="text-align: center;">6756</td>
+<td style="text-align: center;">39587</td>
+</tr>
+</tbody>
+</table>
+<p>Across the 74 journals, there were 388 Special Issues in 2013, about five per journal. In 2020, there were 6756 SIs, somewhat less than a <em>hundred</em> per journal. The provisional data for march 2021 counts 39687 SIs that are open and awaiting papers — about <em>500 per journal</em>. Not all of them will go through — many will fail to attract papers, others will be abandoned by the Guest Editors — but in all likelihood SIs in 2021 will be much more numerous than in 2020.</p>
+<p>SIs increase at all journals, in some cases exponentially. Some have unbelievably high number of SIs. In March 2021, <em>Sustainability</em> had 3303 open Special Issues (compared to 24 normal issues). These are 9 SIs <em>per day</em>, just for <em>Sustainability</em>. 32 MDPI journals have more than 1 open SI in 2021 <em>per day</em>, including Saturday and Sundays.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/img/mdpi_special_issues_2013-21_april2021.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>The “Journal Growth” table in the data appendix at the end of this post reports the growth of articles and number of SIs for each MDPI journal that published at least 100 articles in 2020. It also shows the share of articles that appear in SI rather than in the normal issues. This share has followed different paths in different journals, mainly because of the rise of Sections and Collections, but is still very high for virtually all journals.</p>
+<section id="are-special-issues-a-problem" class="level4 unlisted">
+<h4 class="unlisted anchored" data-anchor-id="are-special-issues-a-problem">Are Special Issues a problem?</h4>
+<p>SIs are good because they pack together similar articles, increasing the readability of an ever-growing literature. They can contribute to the birth or growth of research teams, consolidate networks or help build new ones, and be a place where to carry out interdisciplinary research, that is often squeezed out of traditional disciplinary journals.</p>
+<p>But they ought to be <em>special</em>, as the name says, and they ought to be under the control of the original editorial boards. In most (if not all) non-MDPI journals, the SIs are managed by the journal’s editorial board, together with the guest editors. Not so at MDPI. It is the <strong>publisher</strong> that sends out the invites (often, mass-sending them without much regard to the appropriateness of the invitations). This, coupled with the exponential explosion of SIs, marginalises the editors of the original journal. The people that created the reputation of the journal in the first place are sidestepped by an army of MDPI-invited Guest Editors.</p>
+<p>While I will discuss later the implications of the SI model adopted by MDPI, I think the data prove beyond doubt that the most important MDPI journals are turning into collection of sometimes loosely related Special Issues at an accelerated pace. Normal issues are disappearing.</p>
+</section>
+</section>
+<section id="a-coordinated-reduction-of-turnaround-times" class="level3">
+<h3 class="anchored" data-anchor-id="a-coordinated-reduction-of-turnaround-times">A coordinated reduction of turnaround times</h3>
+<p>Traditional publishers can be extremely sluggish in their turnaround. Scientists share horror stories about papers stuck in review for years. The situation is particularly bad in some fields (economics: I’m looking at you) but it is generally less than optimal.</p>
+<p>MDPI prides itself on its very fast turnaround times. In the Annual Report 2020 MDPI reports an average time to a first decision of 20 days. This is <em>extremely</em> fast. A paper after submission must be assigned to an editor; this editor has to find an associate editor (or not), and then find referees. It is hard to find the correct people to review a paper, and these might be not available. Once the referees have been found and have accepted, they need time to make their report. Then the editor has to read the reports and make a decision. 20 days is <em>really</em> fast.</p>
+<p>But MDPI does not provide aggregate statistics on the time from submission to acceptance. This includes revisions, and is crucial to understand how the editorial process works. To get this data, I scraped MDPI’s website. The information is public — for each paper, we know the submission date, the date when the revised version was received, and the acceptance date. The aggregate results are shown in the figure below. Three main takeaways: 1. there is not much difference between normal, special issues, sections and collections. 2. MDPI managed to halve the turnaround times from 2016 to 2020. 3. the variance across journals has gone down at the same time as the mean.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/img/overall_lag-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>But these are just means. Surely there is a lot of heterogeneity in the turnaround, and <em>some</em> papers will take their time. There could be hidden heterogeneity also by field — economists have shown to have different reviewing times and practices than, say, virologists. Let’s have a look.</p>
+<p>Below is the <a href="https://wellcomeopenresearch.org/articles/4-63">raincloud plot</a> of the overall distribution (cut at 150 days, for the sake of visualisation. This leaves out about 3% of the papers in 2016, but, a further indication of the shrinking of turnaround times, only 0.3% of papers in 2020). On the left, each point is a paper. On the right, you see the kernel density estimation. There <em>is</em> heterogeneity, but it is rather low, and it is being dramatically reduced. The rather flat distribution of 2016 has been replaced by a very concentrated distribution in 2020. The distributions for normal and special issues are similar, with some more variance for SI articles.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/img/lag_distro-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<p>Are there differences by journal, or field? After all we are talking here of different people, from different fields, and thinking back to the SI explosion, at an army of heterogeneous and uncoordinated guest editors. Below you find the distribution of turnaround times for the main MDPI journals (cut to 150 days).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/img/lag_ridge_new_colors.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></p>
+</figure>
+</div>
+<p>The really striking finding here is that there is <em>virtually no heterogeneity left</em>. The picture from 2016 is as you’d expect: fields differ, journals differ. Some journals have faster, other slower turnaround times. Distributions are quite flat, and anything can happen, from a very fast acceptance to a very long time spent in review. Fast forward to 2020, and it is a very different world. Each and every journal’s turnaround times’ distribution shrinks, and hits an upper bound around 60 days. The mean is similar everywhere, the variance not far off.</p>
+<p>This convergence cannot happen without strong, effective coordination. The data unambiguously suggest that MDPI was very effective at imposing fast turnaround times for <em>every one</em> of their leading journals. And this despite the fact that given the Special Issue model, the vast majority of papers are edited by a heterogeneous set of hundreds of different guest editors, which should <em>increase</em> heterogeneity.</p>
+<p>So: hundreds of different editorial teams, on dozens of different topics, and one common feature: about 35 days from submission to acceptance, <em>including revision</em>s. The fact that revisions are included makes the result even more striking. I am surely slow, but for none of my papers I would have been able to read and understand the reports, run additional analyses, read further papers, change the wording and/or the tables, and resubmit within <em>one week</em> of receiving the reports — unless revisions were really minor. Can revision be minor for so many papers?</p>
+<p>About 17% of all papers at MDPI in 2020 — this is 25k papers — are accepted within 20 days of submissions, <em>including revisions</em>. 45% — this is 66k papers — within 30 days. A (too much) detailed table in the data appendix at the end of the post shows turnaround times for all top MDPI journals. Its main point is to provide full info for particular journals, but also to highlight how little variance there is.</p>
+<section id="is-it-bad-to-have-very-fast-turnaround-times" class="level4 unlisted">
+<h4 class="unlisted anchored" data-anchor-id="is-it-bad-to-have-very-fast-turnaround-times">Is it bad to have very fast turnaround times?</h4>
+<p><em>Per se</em>, no. Fast turnaround is clearly an asset, and MDPI shines in this. They did cut all the slack to referees and editors, and this could be a good thing — papers usually spend most of their editorial lives, unread, in the drawers of busy referees and editors (economists, I am again looking at you).</p>
+<p>But cutting editorial and referee times is good for science <strong>only</strong> <strong>if</strong> the quality of the peer review can be kept up even at this very fast pace. A well written referee report might take several days. People are busy with their lives and do not have just referee reports to write; good scientists’ time is scarce. Editorial decisions can also take time. All but the smallest revisions require substantial amounts of time.</p>
+<p>Again, I will expand below on the implications of these extremely short lags, but let’s note that lags have decreased for <em>all</em> journals in a coordinated way and are now at the lower limit of what is compatible with quality reviews + revisions.</p>
+</section>
+</section>
+</section>
+<section id="mdpis-growth-why" class="level2">
+<h2 class="anchored" data-anchor-id="mdpis-growth-why">MDPI’s growth: why?</h2>
+<p>How could MDPI grow so much?</p>
+<p>Whenever something sells so fast, the answer is trivial: demand. What MDPI sells is obviously in high and growing demand. It wouldn’t be enough for MDPI to try to sell it if there weren’t scientists picking it up. But what do they sell that competitors don’t?</p>
+<p>MDPI sells high acceptance rates and very fast turnaround times, in special issues that are very likely to match your specific field and ran by a colleague you know, within journals that have a decent-to-high impact factor and that count in the official rankings of several universities and public agencies in the western world. Exactly what scientists all over the planet, and especially in developing economies, need to keep competing in the publish or perish landscape of modern academia.</p>
+<p>Getting into the details. Is acceptance high? it is at around 50% at most MDPI journals. While this is far from predatory practices (that would be 100%) and shows that MDPI journals <em>do</em> reject papers, acceptance rates are an order of magnitude higher than in most, say, economics journals.</p>
+<p>Does MDPI cover all niches? The very fine grid of Special Issue guarantees that you’ll find an SI that seems tailored for you — if not, you can always accept MDPI’s invitation and tailor one to suit yourself. Impact Factor is high and the fact that the journals count in national rankings covers your back. It’s a winning game.</p>
+<p>The Special Issue model is key in providing incentives to contribute effort and to submit papers. Doing some serious editing activity is a requirement for tenure in many countries, so mid-career scientists will find the offer appealing; it offers an easy way to publish papers from multi-disciplinary groups often required to obtain research funds. At the same time, you are more likely to send your paper to a previously not known journal if a colleague you know runs the Special Issue. Overall, the Special Issue generates incentives and increases trust in the system. It also motivates editors to convince fellow scientists to contribute.</p>
+<p>The second key element is the high Impact Factor of the top MDPI journals. The system wouldn’t work if there was no quality indicator. The high IF is what covers the scientists backs with respect to their funding agencies, employers, and colleagues. Yes, it’s not Nature. Yes, it’s not an exclusive top journal in my field. But look it has a good IF and it is growing. [and look, Dr.&nbsp;X invited me.] Must be good.</p>
+<p>The fast turnaround time and the high acceptance rate are the icing on the cake: you have very high chances of getting a publication in what for academics is the blink of an eye.</p>
+<p>As a firm, MDPI should be admired for pulling this extremely effective strategy. MDPI created a handful of journals with high IF from scratch. They devised the SI-based model. They managed to cut all slack times to zero and deliver an efficient workflow — mean times from acceptance to publication are down to 5 days in 2020 from nearly 9 days in 2016.</p>
+<p>Still, I think this model is not sustainable, and stand a high chance of collapsing. It’s simple, really: it will likely collapse because journal reputation is a common pool resource — and MDPI is overexploiting it.</p>
+</section>
+<section id="an-unsustainable-aggressive-rent-extraction-model" class="level2">
+<h2 class="anchored" data-anchor-id="an-unsustainable-aggressive-rent-extraction-model">An unsustainable, aggressive rent extraction model</h2>
+<p>MDPI is sitting on a large rent — it controls access to something that is in demand and for which it faces little competition. The rent is created by perverse incentives in the academic system, where publications in high IF journals is at a very large premium, since careers and research financing depend on it. Thanks to their past efforts, MDPI sits on several dozen journals with moderate-to-high IF and good reputations.</p>
+<p>They could have chosen to continue business as usual, slowly increasing the number of papers and the reputation. This is what a traditional publisher like Elsevier would have done. Elsevier makes money by selling subscriptions. The value of the subscription is given by the gems in your journal basket. So you take care of the gems, and never let them lose their shine. But MDPI sells no subscription. It makes money by the paper, and so chose instead to exponentially increase the papers at their gem journals.</p>
+<p>MDPI strategy boils down to exploiting their rent, as fast and aggressively as they can, through the Special Issue model. The original journals’ reputations are used as bait to lure in hundreds of SIs, and thousands of papers, in a growth with no limit in sight.</p>
+<p>Despite the best efforts and good faith of MDPI and of all the guest editors and authors involved, the quality of journals that are inflated so much and in this uncontrolled way is bound to go down. Thousands of SI generate a collective action problem: each individual guest editor has an incentive to lower a tiny bit the bar for his or her own papers or those of his or her group. As we know from Elinor Ostrom’s Nobel Prize winning work, collective action and common resources need careful governance lest the system break down. MDPI has chosen to give control of the reputation of its journals to hundreds of guest editors, with just loose or no control from the original editors, who were responsible for the journal reputation in the first place and who are also in the process drowned by a spiraling number of additional board members. Even if the vast majority of those aim for quality, the very fast turnaround times make it harder. MDPI made things worse by sending mass spam invitations to nearly every scientists on the planet to edit special issues, thus increasing the chance of getting on board less than conscientious guest editors that will exploit the system. When the system showed to work (that’s 2018 and 2019), MDPI doubled down sending even more invites (that’s 2020) and recently flooring the accelerator and mass-inviting special issues (500 <em>per journal</em> in 2021).</p>
+<p>This is not sustainable, because it is <em>impossible</em> that there are enough good papers to sustain the reputations of <em>any</em> journal at 10 SIs per day. And even if there were, the incentives are set for guest editors to lower the bar. Reputation is a common pool resource, and the owner of the pool just invited everyone on sight to take a share.</p>
+<p>If MDPI were a music major, this strategy would amount to, first, putting in effort to sign a dozen of very popular bands, and then, once the reputation is in place ask their friends (or indeed anyone with a guitar) to produce more records under the name of the rock stars, for a low fee. Musicians of all levels jumped in. U2 this year released one album, but there are 400 invited bands releasing their albums under the U2 franchise. Buy the records, they are all as good as the original!</p>
+<p>I don’t know why MDPI is so aggressive in rent exploiting. They could have done it more slowly, and still reap substantial profits. The former CEO Franck Vazquez said in 2018 when the Nutrients Editorial Board resigned that he “<em>would be stupid to kill his cash cow</em>” (<a href="https://www.sciencemag.org/news/2018/09/open-access-editors-resign-after-alleged-pressure-publish-mediocre-papers#:~:text=All%2010%20senior%20editors%20of,of%20mediocre%20quality%20and%20importance.&amp;text=He%20resigned%20immediately%2C%20and%20nine%20other%20senior%20editors%20followed.">source</a>). This rings true: why so aggressively exploiting their rent, knowing that reputation can decrease fast if journals are inflated? Still, the data show beyond doubt that MDPI is milking its bigger journals at increasing rates.</p>
+<p>Economics offers some cues as to why aggressive rent extraction might be the best strategy for a firm in the situation of MDPI. In general, when you have a rent but feel that it might soon vanish, it is your best move to suck it dry, fast. It is the economic reason behind the fact that movie sequels suck, or that second albums are usually worse than the first. It is not the only reason, of course. But developing a good, say, teenage dystopian movie increases the likelihood that other producers will jump in on the fashion and copy you; and each further movie exploiting your trope decreases your rent, giving you incentives to hasten the production of your sequel, and market it when it’s not ready. If it is easy to copy your model, you’d better be your own cheap imitation brand, rather than waiting for others to take that role (incidentally, this mechanism is at work also in the fashion industry, as masterfully described in <a href="https://www.theguardian.com/books/2008/jan/12/crime.mafia">Roberto Saviano’s Gomorrah</a> and confirmed by this <a href="https://www.tandfonline.com/doi/abs/10.1080/17440570601014529?journalCode=fglc20">criminology paper</a>).</p>
+<p>Why would MDPI think that their rent will vanish? I don’t know. I suspect it might have to do with the recent move to Open Access of the main traditional publishers, that are opening OA subsidiary of their main non-OA journals. Or to the increasing acceptance of repositories as arXiv as legitimate “publications”, that would make the whole “publisher” concept history. But that’s just a hunch, I have really no clue.</p>
+<p>Whatever the reason, I think that MDPI is aggressively exploiting its rent. It is not predatory in the sense of publishing everything for money. Still, it is a misleading and dangerous practice. The reason why academics are puzzled by MDPI, and you can find people defending the quality of the papers and the special issues they read and/or were involved with and, <em>at the same time</em>, people that completely loath MDPI and deem it rubbish and predatory, is that MDPI is <em>both things at the same time</em>.</p>
+<p>The problem is that bad money always crowds out good money. With MDPI pushing the SI model faster and faster, the balance will shift sooner rather than later towards deeming MDPI not worth working with.</p>
+</section>
+<section id="what-if-i-am-wrong" class="level2">
+<h2 class="anchored" data-anchor-id="what-if-i-am-wrong">What if I am wrong?</h2>
+<p>I might be wrong. There are many good sides of the OA model that MDPI adopts.</p>
+<p>It is more inclusive, for one. It breaks the gate-keeping that is done by the small academic elites that control the traditional journals in many disciplines. It probably makes no sense in the 21st century to limit the number of articles in journals to, say, 60 a year, because back in the 20th century we printed the journals and space was at a premium, so breaking the (fictional and self-imposed) quantity constraint is a good thing.</p>
+<p>All the above rings even more true for academics from the global South, that face even higher hurdles to publish in the rather closed and limited traditional journal. Mister Sew from Ethiopia has provided me with several references on how and how much traditional publishers exclude researchers from the Global South. Non Euro/West researchers account for as low as 2% of published papers, and have virtually no representation in editorial boards. Some traditional publishers deny access to IPs from several African countries. References <a href="https://www.ingentaconnect.com/content/bup/ejpg/2018/00000001/f0020001/art00003">here</a>, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0959378016302412">here</a>, <a href="https://ojs.library.carleton.ca/index.php/nokoko/article/view/2533">here</a> and in a special collection of articles on the role of OA for the global South <a href="https://onlinelibrary.wiley.com/toc/14677660/2021/52/2">here</a>. MDPI features a much higher share of editors and papers from the Global South, and is as such a liberating force. At the same time, MDPI publication fees are very high and unattainable by researchers from the Global South.</p>
+<p>The special issue model is also very good in many respects. It has potential to be a clever way of organizing science in the digital age. We still live within the empty shells of the 20th century way of publishing science. That gave us another form of rent extraction, traditional publishers with their incredibly high margins on the back of scientists. A more open form of knowledge exchange, leaner, open access, and organized around topics rather than journals can be promising.</p>
+<p>Fast turnaround times across all journals could be a sign of real productivity and logistic advances from MDPI, without affecting the quality of reviews. Those would be extremely welcome and a breath of fresh air in academic publishing.</p>
+<p>Volker Beckmann in the comments made also several arguments as to why in his own view MDPI quality is not going down and will not decrease in the foreseeable future. Check his points out in the comments.</p>
+<p>If you have more thoughts on this and you think I’m wrong, I am happy to hear your thoughts. If you are from MDPI and want to reply, I am even more happy. This (too) long piece is meant as an exploration of an intriguing topic. And to scratch a personal itch, that I got when invited to guest edit for Nutrients, last summer, and was surprised to see how MDPI could be at the same time considered very good and very bad by colleagues.</p>
+</section>
+<section id="methods-data-and-code" class="level2">
+<h2 class="anchored" data-anchor-id="methods-data-and-code">Methods, data and code</h2>
+<p>The scripts to reproduce the analysis and the data are available on the <a href="https://github.com/paolocrosetto/MDPI_special_issues">dedicated github repo</a>. The scrape was performed in march 2021, for the number of SIs, and in April 2021, for the turnaround times. All data is publicly available on MDPI’s website, and I just collected and analyzed what is otherwise public. I would like to thank <a href="https://danbrockington.com/">Dan Brockington</a> for extensive discussion, encouragement, and comments on an early draft of this post. Thanks also to Joël Billieux, Ben Greiner, David Reinstein, and all the colleagues on the ESA-discuss forum for discussions on MDPI and publishing.</p>
+</section>
+<section id="additional-tables-and-data" class="level2">
+<h2 class="anchored" data-anchor-id="additional-tables-and-data">Additional Tables and Data</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/img/table_si-4.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Journal growth, Special issue growth and share of SI articles on total articles for selected MDPI journals</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/img/table_lag.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Turnaround times at selected MDPI journals</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>scientific publishing</category>
+  <guid>https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/</guid>
+  <pubDate>Sun, 11 Apr 2021 22:00:00 GMT</pubDate>
+  <media:content url="https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/img/overall_articles_si_waffle.png" medium="image" type="image/png" height="155" width="144"/>
+</item>
+<item>
+  <title>Nutritional labeling: numbers or colors?</title>
+  <link>https://paolocrosetto.github.io/blog/2015-07-01-nutritional-labels-numbers-or-colours/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Originally published on my old blog, <a href="https://paolocrosetto.wordpress.com/2015/07/01/nutritional-labeling-numbers-or-colors-a-new-paper/">paolocrosetto.wordpress.com</a>, on 1 July 2015. The paper was later published in the <em>Journal of Economic Psychology</em> (2016): see its <a href="../../publication/psychogda/">publication page</a>. The “more research underway” announced at the end became, among others, our <a href="../../publication/label/">study of five front-of-pack labels</a> and the <a href="../../publication/labelprix/">labels-vs-taxes experiment</a>.</p>
+</div>
+</div>
+</div>
+<p>[This post presents the paper <strong>Helping consumers with a front-of-pack label: numbers or colours?</strong> the paper can be downloaded <a href="https://ideas.repec.org/p/gbl/wpaper/2015-10.html">here</a>.]</p>
+<p>Bad eating habits have negative consequences. We have always known as much. But the rise of <strong>obesity</strong> in the last decades is impressive and apparently unstoppable. Only a handful of US states had more than 10% of technically obese population (BMI, Body Mass Index &gt;30) in the mid-1980s. Nowadays there is <strong>not a single</strong> US state with <strong>less than 20%</strong>, and many have more than 30%.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-07-01-nutritional-labels-numbers-or-colours/img/obesity_state_level_estimates_1985-2010.gif" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Obesity in the US – source: Center for Disease Control and Prevention, via Wikimedia Commons</figcaption>
+</figure>
+</div>
+<p>The recent accumulation of scientific evidence that diabetes and heart diseases are correlated with obesity rang an alarm bell. Governments have hence launched new <strong>nutrition policies</strong> with the aim of helping consumers eat <strong>healthier diets</strong>.</p>
+<p>King among those policies are <strong>nutritional labels</strong>. The idea is simple: consumers might be ill-informed about the bad effects of their food. Giving <strong>clear information</strong> will help them make the correct choice. But what is <em>clear</em> information? How can we be sure that consumer <em>read</em>, <em>understand</em>, and <em>use</em> the label in their everyday shopping? Turns out that the actual <em>format</em> of the information provided is crucial.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-07-01-nutritional-labels-numbers-or-colours/img/nutrition-table.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:35.0%"></p>
+</figure>
+</div>
+<p>One early idea was to give the consumer <strong>all</strong> the nutritional <strong>details</strong> of each food item. This policy has been widely adopted around the world. One example is the ‘<strong>Nutrition Facts</strong>‘ table that is present on the back of pack in the US. This is <em>a lot</em> of information, and would be perfect for a computer or for someone really knowledgeable about nutrition. That is, this table is very well, but might convey <em>too much information</em>, does not lead to easy comparisons across products, and the information provided is not very focal.</p>
+<p>Nutrition facts are very well if you <em>already care</em> about them, if you take the <strong>time</strong> and pain to go through them, and if you think a lot about your food choices and how to integrate this raw information in your diet. But most of the people take food decisions in the matter of seconds, without much second thoughts.</p>
+<p>Consumer studies have proved that in order to be used, nutrition information must be <strong>visible</strong>, on the <strong>front of pack</strong>, salient and <strong>focal</strong>. That is: <em>less</em> information, in a more <em>prominent position</em>, and at least partially already <strong>processed</strong> to be of immediate use by consumers. Several different labels following these ideas have appeared, but two are on the center of the debate: <strong>Guideline Daily Amounts</strong> (GDA) and <strong>Traffic Lights</strong> (TL).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-07-01-nutritional-labels-numbers-or-colours/img/gdaandtl.jpg" class="img-fluid figure-img"></p>
+<figcaption>GDA (left) and TL (right)</figcaption>
+</figure>
+</div>
+<p><strong>GDA</strong> provides <em>numerical</em> information for each key nutrient, as a % with respect to a recommended daily amount. In the figure, the food item provides 6% of the overall Kcal for one day for an average adult. <strong>TL</strong> on the other hand provides a <em>color-code</em>, similar to road lights. <strong>GDA</strong> gives more detailed and complete information, but relies on <strong>high cognitive skills</strong>. <strong>TL</strong> gives strictly less information, but it is focal and can be used with fast heuristic, arguably requiring <strong>lower cognitive skills</strong>.</p>
+<p><strong>Which label is <em>better</em>?</strong> This is not an easy question to answer. There is a <strong>vast literature</strong> on the topic, that asks which label is better recognized, understood, used… There are clear and comprehensive reviews <a href="http://link.springer.com/article/10.1007%2Fs10389-007-0101-9">here</a> and here. The current literature is advanced and well grounded, but suffers from two <em>shortcomings.</em> First, evaluations of label performance are based on products rather than diet. Most experimental studies implement <strong>simplified choice environments</strong> involving <strong>two</strong> or maximum three <strong>products</strong>. But constructing a healthy diet is a different task than facing binary choices: on a daily basis, consumers must select dozens of food items. Second, the <strong>question asked</strong> seems to determine the relative performance of the labeling schemes. Asking ordinal, relative questions over small choice sets favors TL; asking cardinal, absolute questions over large choice sets favors instead GDA.</p>
+<p>In a <a href="https://ideas.repec.org/p/gbl/wpaper/2015-10.html">recent paper</a> written with <a href="http://www.grenoble.inra.fr/Muller-Laurent-162-gb.html">Laurent Muller</a> and <a href="http://www.grenoble.inra.fr/Ruffieux-Bernard-147-gb.html">Bernard Ruffieux</a> we enter this debate with a <strong>new experimental task</strong>. Since the questions asked bias the results, we go back to base camp and directly ask <em>the question for which nutritional label have been developed</em>: <strong>building healthy diets</strong>. We asked subjects to <em>act as nutritionists</em>, and <em>build daily menus</em> by choosing from a large set of products and within a predetermined meal structure (breakfast, lunch, afternoon snack, dinner). Subjects were paid only if the chosen menu satisfied a set of nutritional criteria. To guide subjects in their choices we provided GDA, TL or a mixed GDA+TL label, mixing both colors and numbers. We also varied the <strong>number of nutritional goals</strong>. The participants faced <em>easy</em>, 1-dimensional tasks, in which the daily menus had to satisfy only an energy constraint; <em>medium</em>, 4-dimensional tasks, in which goals included energy but also limits on the amount of bad nutrients (saturated fat, sugar and salt); and <em>difficult</em> 7-dimensional tasks, in which on top of the above participants had also to maximise the amount of good nutrients (vitamin C, calcium and fiber). The experiment was designed so that GDA and TL are only <strong>assessed</strong> on their <strong>efficacy to help consumers build a healthy daily diet</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-07-01-nutritional-labels-numbers-or-colours/img/tl_4d_empty.png" class="img-fluid figure-img" style="width:85.0%"></p>
+<figcaption>A screenshot of the task with TL, 4 dimensions</figcaption>
+</figure>
+</div>
+<p>We ran <strong>two</strong> sets of experiments. In a first set, subjects had <strong>unlimited time</strong> and could use <strong>paper and pencil</strong> to take notes and perform computations. We recruited both highly-skilled <a href="http://www.grenoble-inp.fr/welcome/">INP engineering</a> studies and subjects from the overall population in <a href="https://fr.wikipedia.org/wiki/Grenoble">Grenoble</a>, France. In a second set, subjects were <strong>limited</strong> to 2 minutes per task (a task was one screen composed of 12 food choices, similar to the screenshot above) and had <strong>no</strong> access to <strong>paper</strong> <strong>and pencil</strong>.</p>
+<p>Our results are striking. When <strong>given</strong> enough <strong>time</strong>, <strong>GDA outperforms</strong> both <strong>TL</strong> and the mixed GDA+TL label, at <strong>any</strong> level of <strong>difficulty</strong>. This is striking because 7-dimensional tasks are <em>very</em> difficult exercises: try to choose your food keeping in mind 7 different numbers, making sure that on none of the 7 dimensions you exceed the given thresholds! <strong>TL</strong> led to slightly <strong>faster</strong> decisions, but it also led to <strong><em>much</em> worse performance</strong>. This was especially true for INP students, that were <em>extremely</em> good at the task. In the Figure below you see the average distance from target over the different labels. Higher bars mean&nbsp;<em>worse&nbsp;</em>performance (i.e., subjects are farther away from target(s)). The data is plotted separately for students (left) and the general population (right) and for 1, 4 and 7-dimensional tasks.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-07-01-nutritional-labels-numbers-or-colours/img/barplotdistance.png" class="img-fluid figure-img"></p>
+<figcaption>Distance fro target of different labels — unlimited time + paper&amp;pencil</figcaption>
+</figure>
+</div>
+<p>Judging from the results of our experiment, <strong>GDA wins hands down</strong> the competition. <strong>But</strong> wait: these results are obtained in an <strong><em>ideal</em> setting for GDA</strong>. Subjects have unlimited time &amp; resources, see all information on the same screen, are incentivized and focus fully on the task. This is a <em>very</em> <strong>different</strong> <strong>setting</strong> from <strong>real</strong> food purchases. What would happen if subjects were only a tiny bit <strong>stressed</strong>? How robust is the strength of GDA?</p>
+<p>Our second set of experiments answers exactly that question. It turns out that introducing limited changes — a time constraint and no paper and pencil allowed — completely <strong>nullifies the advantage</strong> of GDA. GDA performs exactly as TL in 4-dimensional and <strong>TL outperforms GDA</strong> in 7-dimensional tasks (see the barplot of experiment 2 below).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-07-01-nutritional-labels-numbers-or-colours/img/barplotdistance_exp2.png" class="img-fluid figure-img"></p>
+<figcaption>Distance from target — general population, limited time (2min) and no paper&amp;pencil</figcaption>
+</figure>
+</div>
+<p><strong>Why</strong> this overturning of results? <strong>Computations</strong> are key to understand. GDA is the right tool for decision makers that decide to compute their way out of the given task. The setting of Experiment 1 was ideal for GDA. In Experiment 2 subjects <strong>switched to heuristics</strong> other than plain computation in the presence of colour-codes.</p>
+<p>We know that our experiment is rather <strong>artificial</strong>. This <em>limits</em> the direct applicability of our results to the real world. Nonetheless, the artificiality gives us a <strong>clear message</strong>: if <strong>GDA</strong> fails — and it does, as soon as consumers are slightly time-constrained — in our biased environment, with incentives and focused attention, it <strong>will very likely fail</strong> in the noisier, fuzzier, complicated <strong>real world</strong>.</p>
+<p>But to be sure of that, we need more research, which is underway. Stay tuned!</p>
+<p>[<a href="https://ideas.repec.org/p/gbl/wpaper/2015-10.html">Link to the full paper.</a> Comments welcome!]</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>labeling</category>
+  <category>nutrition</category>
+  <guid>https://paolocrosetto.github.io/blog/2015-07-01-nutritional-labels-numbers-or-colours/</guid>
+  <pubDate>Tue, 30 Jun 2015 22:00:00 GMT</pubDate>
+  <media:content url="https://paolocrosetto.github.io/blog/2015-07-01-nutritional-labels-numbers-or-colours/img/gdaandtl.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>It’s never too late for (pre)-sales: the dynamics of crowdfunding</title>
+  <link>https://paolocrosetto.github.io/blog/2015-01-22-crowdfunding-dynamics/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Originally published on my old blog, <a href="https://paolocrosetto.wordpress.com/2015/01/22/its-never-too-late-the-dynamics-of-crowdfunding/">paolocrosetto.wordpress.com</a>, on 22 January 2015. A later version of the paper was published in <em>Research Policy</em> (2018) as “It’s never too late: funding dynamics and self pledges in crowdfunding”: see its <a href="../../publication/crowfund1/">publication page</a>.</p>
+</div>
+</div>
+</div>
+<p>The world is a strange place. Unknown of until recent years, crowdfunding platforms – like <a href="https://www.kickstarter.com/?ref=nav">Kickstarter</a> or <a href="https://www.indiegogo.com/">Indiegogo</a> – are making the headlines around the world. Thousands of people are donating money to help artists produce their <a href="https://www.kickstarter.com/discover/categories/music?ref=discover_index" title="Music@Kickstarter">records</a>, <a href="https://www.indiegogo.com/explore/comic" title="comics@indiegogo">graphic novels</a>, video <a href="https://www.kickstarter.com/discover/categories/games?ref=discover_index" title="games@kickstarter">games</a>; or to allow geeks to produce a tool to transform <a href="https://www.kickstarter.com/projects/joylabs/makey-makey-an-invention-kit-for-everyone" title="makeymakey">bananas in a piano</a> (and other things, too), a <a href="https://www.kickstarter.com/projects/kennygibbs/helios-bars-transform-any-bike-into-a-smart-bike" title="heliosbars">smart handle for cool bikes</a> or even a set of tools to make <a href="https://www.kickstarter.com/projects/1687812426/quirkbot-make-your-own-robots-with-drinking-straws?ref=category" title="robotstraws">robots with drinking straws</a>. More: a project founder might ask for, say, fifty thousand dollars to produce a <a href="https://www.kickstarter.com/projects/ryangrepper/coolest-cooler-21st-century-cooler-thats-actually" title="coolestcooler">wheeled plastic cooler</a>, and receive support for thirteen million, 260 times as much.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-01-22-crowdfunding-dynamics/img/pleasegive.jpeg" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption>Image from <a href="http://blog.catapooolt.com">http://blog.catapooolt.com</a></figcaption>
+</figure>
+</div>
+<p>Why is crowdfunding so successful? Some people argue that it taps into a hidden reservoir of altruism present in internet communities – and that <a href="http://amandapalmer.net/" title="Amanda Palmer asking for help">asking for help</a> is the first step to get it. Add on top of this the internet, that allows every sort of niche – no matter how <a href="https://www.kickstarter.com/projects/1901693996/combat-kitchenware" title="combatkitchenware">remote</a> – to find its devoted supporters, and you might get near to understanding why crowdfunding is booming.</p>
+<p>But is this the whole story – find a niche, fill it with a clever idea, and off you go to a successfully (crowd)funded project? How about failed project? Were they not-so-clever after all, or didn’t they find their niche? Moreover, not all projects are a success story from the very start: some never make it off the ground, some are successful only at the very end, and some have rollercoaster rides over their funding period. Is a head start necessary for project success? To answer all thee questions it is crucial to dig deeper into the motivations of the crowd. Why do people back projects?</p>
+<p>In a new <a href="https://ideas.repec.org/p/jrp/jrpwrp/2014-035.html" title="Startnext@Ideas">paper</a> with <a href="http://www.tobyregner.info/" title="Toby">Tobias Regner</a> we explore these questions using data kindly provided by <a href="https://www.startnext.com/" title="Startnext">Startnext</a>, the biggest German crowdfunding platform. The answers indicate that it is fairly possible for not-so-successful projects to make it thanks to a last-days surge in pledges, and that project success seem to have to do much more with sales than with altruism.</p>
+<p>Startnext gave us access to its whole database – more than 100.000 pledges to more than 2.000 projects. This allows us to add another layer to the <a href="http://www.sciencedirect.com/science/article/pii/S088390261300058X" title="Mollick">existing</a> <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2234765">literature</a> on crowdfunding, focusing on the project-level data: we have access to the individual donations, and what the backer got in exchange for his or her money.</p>
+<p>What we find is partly known, partly striking. It was known from previous research that smaller, shorter, better described projects with a preexisting fan base tend to be more successful than larger, more ambitious projects; this is true also at Startnext. It was also known that communicating with the crowd – via video, blog posts, images, updates – leads to higher success rates. <a href="http://vincent.etter.io/publications/etter2013cosn.pdf" title="Etter">Previous</a> <a href="http://egerber.mech.northwestern.edu/wp-content/uploads/2013/02/Greenberg_CHI2013_MachineLearningKickstarter_130213_v12.pdf" title="Greenberg">research</a> had also shown that project success can be predicted quite reliably from the early stages of the financing phase, to the point that dedicated web services exist that give day-by-day predictions on Kickstarter campaigns, like <a href="http://www.kickspy.com/" title="Kickspy">Kickspy</a>.</p>
+<p>The first striking finding of our analysis is that predictions are not able to track a large part of projects, that seem unsuccessful until very late in their funding phase and eventually make it. Your average crowdfunding campaign starts off with a healthy amount of pledges, levels off in the middle part of the funding phase, and then (eventually) gets a boost in the last few days. This pattern is followed by a relative majority of projects – about 23% at Startnext – that start on track to success, level down off-track, and then jump back at the end. This is usually taken into account by prediction algorithms, so nothing new here. Of course this is not always the case – some projects, about 4%,&nbsp; are <em>rockets</em>, shooting off to success in the very first days, and others – about 1% – do not make it even if they have been&nbsp;on track for most of their funding phases. But by and large, the majority of projects follow this pattern.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-01-22-crowdfunding-dynamics/img/page_1.png" class="img-fluid figure-img"></p>
+<figcaption>Funding dynamics of on-track projects following the pattern up to 2/3 of funding time. Failed on-track, successful, rockets</figcaption>
+</figure>
+</div>
+<p>We find that even projects that do <em>not</em> follow this pattern have an ability to make it in the end that is larger than predicted by existing algorithms. Among the not-on-track projects – about 45% at Startnext – predictions based on performance of previous projects and similarity are able to tell apart the projects that will eventually succeed only about 35% of the time. Nearly 400 not-on-track projects on Startnext turn out to be success stories even if they looked bleak for a long time and predicted outcomes were negative.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-01-22-crowdfunding-dynamics/img/scatters_not.png" class="img-fluid figure-img"></p>
+<figcaption>Funding dynamics of not-on-track projects. On the right, unpredicted late-boomers.</figcaption>
+</figure>
+</div>
+<p>The first message of this analysis is that it is never too late in crowdfunding. But what tells these projects apart from the others? While the data we have does not allow us to uncover the full story, we have indirect evidence that the eventually successful projects show increased communication and interaction with the crowd, via videos, blog posts, and the like. It is important to keep the projects alive and updated to harness the power of the crowd.</p>
+<p>But it is not only communication. The second striking finding is that the key to understand crowdfunding success is at its core simple and old: project success is about <em>sales.</em> Outright donations – sending money for the heck of it, or for a small ‘thank you’ note – account just for 19% of all pledges – the rest is pre-selling of a product or service related to the project. Moreover, exactly <em>what</em> is sold and its characteristics play a major role in project success. Offering the product itself (the new album, the comic book, the coolest cooler) is positively correlated with success, while offering some services (a meeting with the band, a personalised lesson on how to draw comics), thank-you notes, invitations to special events leads to lower rates of success. Crucial to a project success are also all these rewards that enhance the <em>social image</em> of the backer – tee-shirts, banners, public thank yous, anything that might help the backer say ‘I was there’ to others. Tee-shirts are all over crowdfunding websites, and their presence pays off.</p>
+<p>Most strikingly, sales are at the core of the very dynamics of crowdfunding projects we have talked about earlier. When looking at aggregated pledges over time, the usual pattern of projects funding leads to un U-shaped relationship between the amount of pledges and time. This had been usually ascribed to last-minute attempts by project launchers to get over the pre-set threshold. Access to pledge data allowed us to look inside the U, to check if this was indeed the case. It is not: the spike in the last days is due to pledges made to <em>projects that already passed the threshold</em>. Overall, 18.7% of all pledges go to projects that, technically, already made it; in the last days, the share rises to as high as 75% (green bars in the bottom plot). And the vast majority of these pledges are outright pre-sales: backers want to get hold of the product on offer, and once the project is funded they can do so at no risk of being deceived.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2015-01-22-crowdfunding-dynamics/img/stackedhist3_types.png" class="img-fluid figure-img"></p>
+<figcaption>Projects in time and by type: giving to successful projects dominates in the last week</figcaption>
+</figure>
+</div>
+<p>While there is truth in the claim that crowdfunding is based by and large on people’s altruism and enthusiasm for innovative, creative projects, it seems that the funders want to get their share, too. Seen in the light of data, crowdfunding appears, foremost, to be a clever way of selling an innovative, not-yet fully tested prototype product, while simultaneously securing the necessary funding to cover development and production costs.</p>
+<p><em>Crowdfunding: Determinants of success and funding dynamics</em>, by Paolo Crosetto and Tobias Regner. Find it on <a href="https://ideas.repec.org/p/jrp/jrpwrp/2014-035.html" title="Startnext@Ideas">IDEAS</a>!</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>crowdfunding</category>
+  <guid>https://paolocrosetto.github.io/blog/2015-01-22-crowdfunding-dynamics/</guid>
+  <pubDate>Wed, 21 Jan 2015 23:00:00 GMT</pubDate>
+  <media:content url="https://paolocrosetto.github.io/blog/2015-01-22-crowdfunding-dynamics/img/stackedhist3_types.png" medium="image" type="image/png" height="89" width="144"/>
+</item>
+<item>
+  <title>Price and format competition with consumer confusion</title>
+  <link>https://paolocrosetto.github.io/blog/2014-11-07-price-and-format-competition/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Originally published on my old blog, <a href="https://paolocrosetto.wordpress.com/2014/11/07/price-and-format-competition-with-consumer-confusion-a-new-paper-with-alexia-gaudeul/">paolocrosetto.wordpress.com</a>, on 7 November 2014, as “a new paper with Alexia Gaudeul”. A later version was published in the <em>Journal of Economics &amp; Management Strategy</em> (2017) as “Choosing not to compete: Can firms maintain high prices by confusing consumers?”: see its <a href="../../publication/cs2/">publication page</a>.</p>
+</div>
+</div>
+</div>
+<p>Imagine there are three firms in an industry. They sell a homogeneous product (say, <em>internet access</em>): the product of firm 1 is a perfect substitute of the products of firms 2 and 3. Imagine firms can compete only on <em>price</em>. How will the market share depend on the price the firms decide to set?</p>
+<p>Now, you know the solution already. This is called a <a href="http://en.wikipedia.org/wiki/Bertrand_competition" title="Bertrand@wikipedia"><em>Bertrand triopoly</em></a>, and it is as simple as it gets: the firms pricing lower gets the whole market. The firms equally divide the market between themselves only if they adopt the same price. Competition, absent collusion, should lead firms to undercut each other in a nasty price war, until all (extra)profit is lost and price are at marginal cost.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2014-11-07-price-and-format-competition/img/bertrand.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>In the real world, we seldom observe price wars and prices falling to marginal cost. This might be due to outright <em>collusion</em>: the three firms have simply gotten into an agreement to sell at price X, period.&nbsp; This happens all the time, but it is illegal in many a country, and it is not the only way firms have to avoid price wars.</p>
+<p>One lever firms might use is to try to differentiate their product. When two products are different, other consideration than price might enter the picture. When differentiation fails – after all, <em>internet access</em> is not so different across firms – <em>spurious differentiation</em> steps in. Firms might <em>convince consumers</em> that the products are different, when indeed they are not. Think brands, advertisement, anything that might create consumer loyalty – i.e., the attachment of a consumer to a product. If consumers are <em>loyal</em>, to, say, Apple, inc., then price cuts by competitors hurt much less in terms of market share. Moreover, firms might <em>confuse</em> consumers. Introducing difficult-to-evaluate offers, muti-parts complex tariffs, etc… might create such confusion in the consumers that they tend to stick to one firm and be done with it.</p>
+<p>Suppose loyalty can be measured in <em>price units</em>. That is, I am happy to buy from Apple even if it is more expensive than Samsung, but only up to a point. Let’s call this point ε. Then, price wars might still exist, but at a higher cost: firms have to undercut the competitor by more than ε to steal market share. The equilibrium in this case is more complicated, and it includes a cycle: firms undercut each other to get the whole market; but then, when they reach low prices, they can gain by pricing higher again and restricting the market to their own loyal customers. Then a new descending price war ensues.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2014-11-07-price-and-format-competition/img/loyalty.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>But in such a market, firms face <em>two</em> choices and not just one. They can choose their <em>price</em>; but they can also choose whether to <em>confuse</em> consumers – creating a <em>confusopoly</em> – or make their product <em>comparable</em> with the competition. Imagine there is a share of consumers – we call them <em>savvy</em> – that is able to exploit comparability. They are, like all other consumer, confounded by the firms and subject to loyalty. At the same time, in case a firm chooses to make its product <em>comparable</em> with the competitors, they drop their loyalty altogether and compare the two products freely. They might even go one step further: they might realize that the <em>very same choice</em> of making one’s product comparable indicates willingness to compete directly on price, and this is a signal that lower prices are likely. The sub-market among firms that share the same <em>standard</em> and make their offers comparable (in the picture, the small circle of the chrome-like icon) is a simple <em>Bertrand</em> oligopoly, and prices there are therefore low: <em>savvy</em> consumers know this, and tend to shop among these firms, disregarding the incomparable products. The implications of the presence of such consumers on a <em>confusopoly</em> can be great. Strategies for firms are more complex – should I make my product comparable and undercut, or should I confuse and overprice?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2014-11-07-price-and-format-competition/img/savvy.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>In a recent paper with <a href="http://agaudeul.pbworks.com/w/page/1506936/FrontPage" title="Alexia">Alexia Gaudeul</a> (find it <a href="https://ideas.repec.org/p/gbl/wpaper/2014-08.html" title="CS2@Grenoble">here</a>, <a href="https://ideas.repec.org/p/jrp/jrpwrp/2014-026.html" title="CS2@JERP">here</a>, or <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2519000" title="CS2@SSRN">here</a>) we investigate by means of a laboratory experiment what happens when firms must choose their price and whether to make their product comparable with the competitors or not, in markets with varying share of <em>savvy</em> consumers. We also vary what firms know about the action of competitors: in a <em>full information</em> setting, they know prices, profits, market shares; in a <em>no information</em> setting they just know their own price, shares and profits.</p>
+<p>Results are in line with intuition – and reveal interesting insights for policy.</p>
+<p>In the <em>full information</em> setting, firms are able to collude into choosing high prices and confusion. Avoiding to present comparable offers is used as a signal of the willingness to collude; moreover, punishment for broken collusion could be both visible and highly effective. This effect is less strong in <em>no information</em> treatments.</p>
+<p>The presence of <em>savvy</em> consumers has positive effects for consumer welfare only in the <em>no information</em> treatments. When more consumers are savvy, firms competed more, to the benefit of both the savvy and the naive consumers. On the other hand, in <em>full information</em> treatments, the presence of savvy consumers leads, paradoxically, to <em>worse</em> outcomes for consumers. The punishment for deviation from collusion being higher, and monitoring easier, firms avoid competition much more as consumers become savvyer.</p>
+<p>In a nutshell, clever consumers are not enough to avoid collusion and high prices. Consumer protection may therefore require some encouragement for firms to present prices and products in a common format. For example, firms may have to be required to provide some standard information to help consumers in comparing products, for example an index of energy efficiency for fridges and other appliances. Unit price information is already generally available or even mandated in supermarkets. Some standardization is also<br>
+present at the national level for presenting lending rates in terms of annual percentage rate of charge. There is however a lot of progress to be made for example in the automobile market, where fuel economy information is<br>
+often misleading and wrongly conveyed. Agreeing on common formats for measuring the performance and prices of different type of relatively undifferentiated products could therefore be a valuable extension to the efforts that have led to the progressive spread of the metric system for physical measurements</p>
+<p>You can find the paper in SSRN <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2519000" title="CS2@SSRN">here</a>, or on IDEAS <a href="https://ideas.repec.org/p/jrp/jrpwrp/2014-026.html">here</a> and <a href="https://ideas.repec.org/p/gbl/wpaper/2014-08.html">here</a>. Comments welcome!</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>competition</category>
+  <guid>https://paolocrosetto.github.io/blog/2014-11-07-price-and-format-competition/</guid>
+  <pubDate>Thu, 06 Nov 2014 23:00:00 GMT</pubDate>
+  <media:content url="https://paolocrosetto.github.io/blog/2014-11-07-price-and-format-competition/img/savvy.png" medium="image" type="image/png" height="64" width="144"/>
+</item>
+<item>
+  <title>Introducing the Bomb Risk Elicitation Task</title>
+  <link>https://paolocrosetto.github.io/blog/2012-05-30-bomb-risk-elicitation-task/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Originally published on my old blog, <a href="https://paolocrosetto.wordpress.com/2012/05/30/bret/">paolocrosetto.wordpress.com</a>, on 30 May 2012. The paper was published in the <em>Journal of Risk and Uncertainty</em> (2013): see its <a href="../../publication/bomb/">publication page</a>. The comparison with other tasks announced at the end came out in <em>Experimental Economics</em>: <a href="../../publication/comparison/">A Theoretical and Experimental Appraisal of Four Risk Elicitation Methods</a>.</p>
+</div>
+</div>
+</div>
+<p>This post introduces the BRET paper by Paolo Crosetto and Antonio Filippin. <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2100356" title="BRET paper - Crosetto and Filippin (on SSRN)">Download it on SSRN</a>!</p>
+<p>When investigating issues in experimental economics we need to be able to control for those characteristics of the subjects that can affect the results. One of the traits we usually try to control for is the <strong>attitude</strong> of people towards <strong>risk</strong>. We know from everyday experience that people can differ wildly in their willingness to take risks: some people hide money under a mattress, others invest in start-ups or in high-risk bonds. <strong>Risk-aversion</strong> or risk-seeking can vastly influence behavior, in non trivial ways; so in economics many tools have been developed to try and elicit our subjects’ attitudes towards risk.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2012-05-30-bomb-risk-elicitation-task/img/casino.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Image taken from <a href="http://coolrisk.com/risk-cartoons/risk-aversion" title="risk cartoons">here</a></figcaption>
+</figure>
+</div>
+<p>More or less all the tasks used in economics involve choices among <strong>lotteries</strong>. Do people prefer a sure amount of 5 € to a coin toss yielding 15 € if tails, 0 € if heads? By using batteries of questions like these, we can try and find the tipping point, the lottery that makes people indifferent. A very risky lottery, most people would reject; a very low risk – high gain lottery, most people would accept; which exact level of returns on risk makes people willing to accept a bet, that’s what we are after.</p>
+<p>The current methods are all very cleverly designed. The point of each task is to get the <strong>finest possible estimate</strong> of the individual risk attitudes, with the <strong>lowest</strong> possible <strong>number of choices</strong>, and using a task that is easily <strong>understandable</strong> by our subjects. <a href="http://www.jstor.org/stable/3083270" title="HL 2002 paper">One classic task</a> was developed by <a href="http://people.virginia.edu/~cah2k/" title="Charlie Holt">Holt</a> and <a href="http://excen.gsu.edu/slaury/" title="Susan Laury">Laury</a>, who built on a long tradition of lottery tasks. It involves ten pairwise choices between two lotteries. It’s neat theoretically, but it is not so easy to understand (have a look at one implementation of their task in the image below); it requires 10 choices to estimate risk attitudes, and it gives just a not-so-fine-grained estimate, as it pools subjects in 8 categories.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2012-05-30-bomb-risk-elicitation-task/img/hleg.png" class="img-fluid figure-img" style="width:85.0%"></p>
+<figcaption>Left: Holt and Laury – 10 choices, 1 coarse estimate. Right: Eckel and Grossman – 5 choices, 1 coarser estimate</figcaption>
+</figure>
+</div>
+<p>Other tasks can do better than that. A <a href="http://www.ingentaconnect.com/content/els/10905138/2002/00000023/00000004/art00097" title="EG task">task</a> developed by <a href="http://cbees.utdallas.edu/bio_eckel.php" title="Catherine Eckel">Eckel</a> and <a href="http://www.buseco.monash.edu.au/eco/staff/grossman-philip.html" title="Philip J.Grossman">Grossman</a> uses only one choice among five lotteries, and it turns out to be much easier to understand (have a look above). But simplicity has a cost, as now subjects can be pooled in just 5 categories, and risk-loving preferences are not captured by the task. A feature shared also by an investment <a href="http://www.google.de/url?sa=t&amp;rct=j&amp;q=charness%20gneezy%20portfolio%20choice%20and%20risk%20attitudes%3A%20an%20experiment&amp;source=web&amp;cd=1&amp;ved=0CE4QFjAA&amp;url=http%3A%2F%2Fpapers.ssrn.com%2Fsol3%2Fpapers.cfm%3Fabstract_id%3D397300&amp;ei=dxHGT_aoF8jd4QTC1ozEBQ&amp;usg=AFQjCNFyElzgH49Zw4MWLOH8d_bYMtKLpA" title="CG task">task</a> developed by <a href="http://www.econ.ucsb.edu/~charness/" title="Gary Charness">Charness</a> and <a href="http://rady.ucsd.edu/faculty/directory/gneezy/" title="Uri Gneezy">Gneezy</a>: subjects are given 10 $, and asked to divide this amount between a safe option – you keep all the money dumped there – and a risky option – you stand a 50% chance of getting 2.5 times what you invested, and a 50% chance of zero. The task can be very easily understood, it requires only one choice, and generates as many categories as you possibly want. But again, no risk loving can be captured, and, what is more important, the task confounds risk attitudes with loss attitudes – you can <em>lose</em> money with respect to what has been given to you and this, at least according to Prospect Theory, makes a big difference.</p>
+<p>So, no task is perfect, and some have some major problems. Me and <a href="http://www.iza.org/en/webcontent/personnel/photos/index_html?key=1197" title="Antonio Filippin">Antonio Filippin</a>, my coauthor, we tried to solve some of these problems.</p>
+<p>What we wanted to do was to create a task that would improve upon the existing ones. We wanted it simple, able to give a fine-grained estimate with few (possibly one) question, possibly not hinging upon underlying mathematical skills. We wanted it free from consideration of losses. SO we looked around, and found that a simple, intuitive task giving a very fine-grained estmation exists: it’s the Balloon Analog Risk Task (BART: <a href="http://scholar.google.de/scholar_url?hl=en&amp;q=http://www.cds.unc.edu/CCHD/S2012/03-12/BART_JEPA.pdf&amp;sa=X&amp;scisig=AAGBfm1Pgw7eANc7EyMDlkY5MH5Xd1RJ5Q&amp;oi=scholarr&amp;ei=ODvLT4iLD4Si4gTZtIn5Dw&amp;ved=0CAcQgAMoADAA" title="BART paper">paper</a>, <a href="http://www.millisecond.com/download/samples/v3/BART/" title="BART applet">applet</a>), developed by <a href="http://www.bsos.umd.edu/psyc/clinicalpsyc/faculty/Lejuez.htm" title="CW Lejeuz">Lejeuz</a> et al.&nbsp;Subjects see an inflatable balloon on the screen, and they can pump air into it —&nbsp; for every pumping, they get a positive amount of money; at some point the balloon is bound to burst – and in that case the subjects get zero. The task is very intuitive, but it has two main problems: the bursting of the balloon truncates the data – i.e.&nbsp;we cannot identify properly subjects whose preferences are to stop after the bursting point – and it features <em>ambiguity</em>: probabilities are not clearly visualised, as it s hard to keep track of the pumps and to see how big the balloon has become w.r.t. to its maximum size.</p>
+<p>So we thought of improving on the BART – by making probabilities easy to infer from the visual representation, and by eliminating the truncation of the data. What we came up with is the ‘Bomb Risk Elicitation Task’ (BRET).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2012-05-30-bomb-risk-elicitation-task/img/block100_base.png" class="img-fluid figure-img" style="width:45.0%"></p>
+<figcaption>The BRET task – looks like minefield, uh?</figcaption>
+</figure>
+</div>
+<p>The BRET is pretty simple. You see a square composed of 100 boxes: it reminds one of minesweeper. And indeed, within one of those boxes there is a mine, well, a time bomb. You do not know where the bomb hides. The PC, at a predetermined speed, collects boxes for you, in a predetermined order. For each box that is collected, you gain money. But you also increase the likelihood of collecting the time bomb – if it explodes you get (you guessed it) zero. Your task is to stop the collection process – to choose how many boxes to collect. The more you collect, the more you accumulate money, but the more you increase the likelihood of collecting the bomb. We need a time bomb, and not a live explosion, to avoid truncation of the data. In the BRET, one can as well go ahead and collect all 100 boxes. Its money counter would then show a nice amount of money, that would unfortunately be lost for sure. If he collects 90 boxes, a subject faces a only a 10% chance of getting them; if 30, a 70% chance.</p>
+<p>The task is easy, it allows for a clear visual representation of probabilities and of the collection process. It is also simple, as the subjects need to take only one decision – to hit the ‘stop’ button. Out of this decision, we can lump subjects into 100 different categories – one for each stopping point – that is way more than 8 or 5 from previous tasks. Moreover, there is no loss involved – as there is no reference point to start with, no clause ‘you have 10 $, how much do you… ?’. The task needs 4 lines to be explained, in the basic version 100 seconds to be run, and gives a pretty detailed estimate of the willingness to take risks. The BRET improves on the Balloon as probabilities are clearly visible, we can measure any preference on the set, and we do not need repetitions – thus eliminating possible serial correlation in the data (‘I stop at 60 niw, since I have stopped at 35 earlier and it did work…’). Moreover, just one decision is done – one click – and fatigue or loss of control from the subjects is ruled out.</p>
+<p>We proposed the task to 1110 persons in our Lab at the <a href="http://www.econ.mpg.de/english/" title="MPI Jena">Max Planck Institute for Economics</a> in <a href="http://en.wikipedia.org/wiki/Jena" title="Jena">Jena</a>, to gather some statistics and see how it fared with respect to the above tasks, and to known stylized facts of risk aversion in the population. And the findings are quite surprising.</p>
+<p>First, as expected, on average the subjects are slightly risk averse. That is, they stop on average after 46.5 boxes have been collected – if they were risk-neutral, they would stop at 50. The bulk of subjects recorded moderate choices – 80% of the people lie between 26 and 65 boxes collected – which makes a lot of sense. In general, 51% of the subjects are risk-averse (they stop before 50), 14% risk neutral (they stop exactly at 50), and 35% risk loving (they stop after 50). These results represent a novelty, as previous studies found most of the people being risk averse, and only less than 20% of the sample showing some risk loving, if at all. After all, that was the ground for the exclusion of risk loving from some of the existing tasks: it was so rarely observed, and if so only slightly, that it made sense to concentrate on the degree of risk aversion, assuming all subjects would be risk averse, or, at a limit, risk neutral. About why is that the case, for us to have so many (slightly) risk loving subjects, we have some clues – and they have once again to do with loss aversion.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2012-05-30-bomb-risk-elicitation-task/img/core_hist.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Distribution of choices in the BRET</figcaption>
+</figure>
+</div>
+<p>Second, we see <em>no</em> gender difference in risk attitudes. This was quite striking, at first. There is <a href="http://www.google.de/url?sa=t&amp;rct=j&amp;q=eckel%20grossman&amp;source=web&amp;cd=2&amp;ved=0CFQQFjAB&amp;url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.121.1841%26rep%3Drep1%26type%3Dpdf&amp;ei=rhHGT6v1E-Wg4gSi4oWDBg&amp;usg=AFQjCNGWnBbKebrAYOMWFqfKKiyVUlu3pQ&amp;cad=rja" title="Eckel Grossman risk review">widespread evidence</a> that females are less willing than males to take risks. Even though the evidence is not conclusive – many studies did not find any difference – it is true that this has been taken as a fact by many. Indeed, it is true that self-reported measures of risk aversion show a significant gender difference. Morevoer, what is even more puzzling, this gender difference appears in our data as well: the very same 1110 subjects, when asked to report how much do they perceive themselves to be adverse to risks, using the question of the German household panel (<a href="http://scholar.google.de/scholar_url?hl=en&amp;q=ftp://repec.iza.org/RePEc/Discussionpaper/dp1730.pdf&amp;sa=X&amp;scisig=AAGBfm3vGRPZgLoEjjeDr72RrTn73Y75mg&amp;oi=scholarr&amp;ei=_xHGT7_JHqb54QSZn5HABQ&amp;ved=0CAUQgAMoADAA" title="Dohmen et al SOEP">SOEP</a>), report answers that show a clear gender gap.&nbsp; What’s going on here?</p>
+<p>The answer to the gender puzzle turns out to have again to do with losses. Loss aversion and risk aversion are two very different things. They are technically different, for starters. But also intuitively, it is very different to decide over gains, or to make a decision involving losses:. Consider a lottery giving 10/0 € on a 50/50 probability, and another in which first you are given 5 €, and then you are asked to play a +5/-5 lottery on those. At a close inspection the two bets are identical – the end result can be one of 0 € or 10 €, with 50% chance, each. But in the second case the choice is framed so that you appear to be <em>losing</em> 5 €. Loss aversion means that a player willing to accept the first would turn the second down. The Charness and Gneezy task (invest a share of the 10$, with risk of getting 0 $) clearly involves losses. The Eckel and Grossman task also does, in a more subtle way – namely, you can as well choose the ‘safe lottery’, the one that gives you 4 € for sure; with respect to that, all the other lotteries can be seen as losses or gains on top of the starting 4 € that you can in any case secure for yourself. For the Holt and Laury mechanism one could reason along similar lines, but the loss component is not so prominent.</p>
+<p>Our take on the problem was that females could be more <em>loss averse</em> with respect to males, but have the same <em>risk</em> aversion. This is not completely new, as it has been shown for example by <a href="http://booij.economists.nl/" title="Adma Booji">Booji</a> and <a href="http://www.tilburguniversity.edu/nl/webwijs/show/?uid=g.v.d.kuilen" title="Gijs van de Kuilen">van de Kuilen</a> <a href="http://www.google.de/url?sa=t&amp;rct=j&amp;q=a%20parameter-free%20analysis%20of%20the%20utility%20of%20money%20for%20the%20general%20population%20under%20prospect%20theory&amp;source=web&amp;cd=1&amp;ved=0CEgQFjAA&amp;url=http%3A%2F%2Fwww.economists.nl%2Ffiles%2F20090710-AcceptedProof.pdf&amp;ei=bBLGT6SCItCO4gTascn3BQ&amp;usg=AFQjCNEXHphgS3QF1m2XCEWjy4-3_Dc70Q&amp;cad=rja" title="Booji and van de Kuilen paper">here</a>. That would explain, for example, why we see a substantial gender gap in Eckel and Grossman, a <em>huge</em> one in Charness and Gneezy, and an insignificant one in Holt and Laury. Moreover, as most decisions in real life involve losses of one kind or another, this could also explain why females self report as more risk averse than men, even in our sample: when asked about self, persons think about life situations, not about lotteries defined only in the gain domain.</p>
+<p>To see if this interpretation was correct, we played the BRET with a slight frame change: players were given 2.5 euros to start with, and those would be at stake on the BRET. As each box was worth 10 eurocents, when starting collecting boxes players would recoup losses until box 24, break even at box 25, and from then on accumulate on top of the starting 25. Being just a frame change, this new version is identical to the one before – exactly as the two bets above are the same bet. And indeed, on the aggregate, the choice is the same – the average stopping point is after 46.3 boxes. But when breaking choices down by gender, we observe that females stop on average at 44, while males at 48. This is significant, if not terribly so, also due to the smaller number of observations we collected on the <em>loss</em> version of our task, and to the fact that the new frame involves greater complexity and we observed a higher share of players submitting extreme decisions (for instance stopping at 1, or at 99). To put it bluntly, in the BRET women are not more risk averse than men, but are then indeed found to be more <em>loss</em> averse.</p>
+<p>We have hence developed a tool that is <em>loss-free</em>, easy to understand, and yields fine-grained estimates of people’s attitutdes to pure risk, i.e.&nbsp;situations not involving losses. The BRET is a bit too sensitive to some outliers – as most of the people lie in the 40-60 range, a couple of people choosing 5 or 95 is able to move the mean considerably – and could be ridden by some other confounds (e.g., people have to wait to submit their decision, or the visual nature of the task could play a role, or is it 100 the correct amount of boxes, why not less, why not more?). These and other robustness checks are discussed in our first paper on the BRET, that you can <a href="../../publication/bomb/">read here</a>.</p>
+<p>We also ran a comparison of the BRET with other tasks in the literature. This is still work in progress, but it won’t be long till that paper also hits the road. In the meanwhile, you could see by yourself how the BRET works, by downloading the BRET software (for zTree or Python) and having a look at experimental instructions <a href="https://paolocrosetto.wordpress.com/research/bret/" title="BRET online material">here</a>.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>risk elicitation</category>
+  <guid>https://paolocrosetto.github.io/blog/2012-05-30-bomb-risk-elicitation-task/</guid>
+  <pubDate>Tue, 29 May 2012 22:00:00 GMT</pubDate>
+  <media:content url="https://paolocrosetto.github.io/blog/2012-05-30-bomb-risk-elicitation-task/img/block100_base.png" medium="image" type="image/png" height="167" width="144"/>
+</item>
+<item>
+  <title>Competition vs. confusopoly</title>
+  <link>https://paolocrosetto.github.io/blog/2011-11-01-competition-vs-confusopoly/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Originally published on my old blog, <a href="https://paolocrosetto.wordpress.com/2011/11/01/competition-vs-confusopoly-a-new-paper/">paolocrosetto.wordpress.com</a>, on 1 November 2011, as “a new paper” with Alexia Gaudeul. A later version of the experiment was published in <em>Economics Letters</em> (2016) as “A Monetary Measure of the Strength and Robustness of the Attraction Effect”: see its <a href="../../publication/cs1/">publication page</a>. The question left open at the end, what firms would do, is the subject of our <a href="../../blog/2014-11-07-price-and-format-competition/">follow-up post on price and format competition</a>.</p>
+</div>
+</div>
+</div>
+<p>We know that having choices is great, but we also <a href="http://books.google.com/books?id=zutxr7rGc_QC&amp;vq=barry+schwartz+paradox+contents" title="The paradox of choice: why more is less">know that too much choice is not a good thing</a>. Try to enter an online shop to get hold of a mobile phone – or, worse, a mobile phone tariff plan. Or, easier yet, just pop by your local supermarket and look at the mustard section.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2011-11-01-competition-vs-confusopoly/img/mustard.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Too much choice? Photo by Erich Vieth @ <a href="http://dangerousintersection.org/2008/02/18/experiencing-the-paradox-of-choice-at-the-local-schnucks-grocery-store/">Dangerous Intersection</a></figcaption>
+</figure>
+</div>
+<p>We also know that one of the easiest ways to cut ourselves loose of the jungle of confusing offers and of the resulting choice angst is to just pick one offer and be done with it.</p>
+<p>But let’s assume firms know this: they know that, overwhelmed by choice, we will not choose and compare, but rather pick one without much reasoning. They might be tempted to exploit this finding. They might intentionally make price structure, product shapes and attribute, everything they have in control, more complex, more difficult to evaluate, in order to keep prices higher – what does a price tag tell you anyway, if it’s so difficult to compare it with others? There could even be some form of collusion: instead of competing on price, firms might all together confuse consumers and get away with higher prices. That’s what in the Dilbert world has been dubbed a <em>confusopoly</em>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2011-11-01-competition-vs-confusopoly/img/dilbert_confusopoly_2010-11-21.gif" class="img-fluid figure-img" alt="Dilbert strip: the boss explains that his pricing is intentionally confusing so customers cannot compare prices, and that competitors do the same: it is called a confusopoly"></p>
+<figcaption>Comic by Scott Adams, <em>Dilbert</em>, 21 November 2010 (<a href="https://web.archive.org/web/20141116042027/http://dilbert.com/strips/comic/2010-11-21/">archived copy</a>)</figcaption>
+</figure>
+</div>
+<p>And indeed some recent lab experiments (<a href="http://www.google.com/url?sa=t&amp;rct=j&amp;q=www.tilburguniversity.edu%2F...%2Fkalayci-potters.p...&amp;source=web&amp;cd=1&amp;sqi=2&amp;ved=0CBoQFjAA&amp;url=http%3A%2F%2Fwww.tilburguniversity.edu%2Fresearch%2Finstitutes-and-research-groups%2Ftiber%2Fwho%2Fkalayci-potters.pdf&amp;ei=PSOwTrL7Fo3ZsgaQhOFc&amp;usg=AFQjCNFebojrSJuiRcBZB3UUf2VgeYAv7Q&amp;cad=rja" title="Kalaici and Potters paper">Kalaici and Potters, 2011</a>) indicate that there are profits to be made by confusing consumers, the mustard picture above seems to be telling the same story, and the very influential <a href="http://nudges.org/" title="Nudge blog"><em>Nudge</em></a> <a href="http://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/0300122233" title="Nudge @ Amazon">book</a> by Thaler and Sunstein tries to tell us how to correct this and build ‘better’ <em>choice architectures</em>.</p>
+<p>But look back at the mustard picture. There is more to say about it than ‘there is too much choice’. Most offers, even by different brand, sport roughly the same shape and size; many of them share the same container and cork colour, some even the label style. It seems that firms want to confuse consumers, but up to a point: they also want their offers to be comparable to the ones of competitors. Imagine offers like ‘we give whatever firm X is giving you, plus 10% more product’, or ‘at 10% lower price’. Online mobile phone plans are usually framed this way.</p>
+<p>It looks as if firms have two competing sets of incentives here: on the one hand, confusing consumers is a way of avoiding costly price wars and make profits; but on the other, closely mimicking your competitor’s offer and undercut him might also work. Firms might follow the road to <em>confusopoly</em> or the the one of <em>competition</em>. What is the best way?</p>
+<p>Well, it depends heavily on how consumers make choices. Let’s imagine we have firms selling homogeneous goods: mobile phone traffic. Let’s call the way a product is presented a ‘standard’: the complexity of the offer, in how many dimensions it is split (SMS cost, cost-per-minute, data cost, flat fees, etc…), and all other details. Alexia Gaudeul and Robert Sugden proved (<a href="http://ideas.repec.org/p/jrp/jrpwrp/2009-084.html" title="Gaudeul Sugden Working paper">working paper</a>; <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1468-0335.2011.00895.x/abstract" title="Gaudeul Sugden Economica">Economica</a>) that if consumers prefer to choose ‘common standards’, i.e.&nbsp;restrict their choice to the items that are easily comparable and disregard the other offers, then a confusopoly cannot be formed or sustained, as firms prefer to offer ‘common standards’ and compete on price.</p>
+<p>Why should consumer prefer ‘common standards’? Well, for one, within common standards it is way easier to assess which offer is the relative best; the chosen item might not be the absolut best, but it’s at least <em>better than something</em>. That’s a close cousin to what is called the <em>decoy effect</em> (check Ariely’s <a href="http://danariely.com/the-books/excerpted-from-chapter-1-%E2%80%93-the-truth-about-relativity-2/" title="Ariley decoy 'The Economist'">experiment</a> on <em>The Economist</em> subscription fees). Moreover, firms choosing a common standard might signal their willingness to compete on price, while the ones that do not might signal their willingness to confuse consumers.</p>
+<p>But do consumers really prefer easily comparable offers? How much? To what extent they use the clue offered by the existence of a ‘common standard’ to restrict their focus?</p>
+<p><a href="http://agaudeul.pbworks.com/w/page/1506936/FrontPage" title="Alexia Gaudeul">Alexia Gaudeul</a> and I ran an <a href="http://ssrn.com/abstract=1943603" title="Crosetto Gaudeul Working Paper">experiment</a> to test this. Assume you have to buy paint, to renovate a wall in your house. All the shops sell the same quality of paint, except that in the strange world you live in the offers do not tell you the unit price of paint (e.g.&nbsp;€ per painted meter) but show you visually how much of your wall you could cover with the bucket costing X. Firms differ in the way they present this information to you: some choose triangles, some squares some circles, and of different sizes and prices. A typical shop in this world is a collection of shapes on a white background, showing you the dimension of your beloved wall.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://paolocrosetto.github.io/blog/2011-11-01-competition-vs-confusopoly/img/cs2.png" class="img-fluid figure-img"></p>
+<figcaption>Buying paint in a strange world</figcaption>
+</figure>
+</div>
+<p>As you see, two offers share the same standard. And the middle one clearly dominates the left one. It is not easy to tell if the middle one is better than the right one, but one clear way of restricting choice is to eliminate dominated offers. Theoretically, the higher your perception errors, the more you should rely on the information conveyed by common standard offers. In other words, a very precise consumer might rely on his judgment; a very imprecise one would on average be better off by choosing the center triangle.</p>
+<p>We exposed our subjects to many such choices. Some had a common standard, some did not; some had 3, some 6 products on display. We controlled for their shape comparison, math, logical abilities.</p>
+<p>In our world, consumers do make use of common standard information. Not all consumers, not at all times, in different ways, and especially less so when 6 offers are on display – a lot of choice is indeed sometimes too much.&nbsp; But they do. And just enough that a firm choosing a common standard offer and undercutting the price of the competitor would make more profits than the confusing firms. So no confusopoly can be stable in our buy-the-paint-in-shapes world. It is good to confuse consumers, but it is better to directly compete by offering clear alternatives.</p>
+<p>Our buy-paint-as-a-shape might sound as an unrealistic world. But it is a world in which many reasons for restricting choice to common standard offers are ruled out by definition; if at all this strengthens our result.&nbsp; For example, our prices are random, while in the real world a firm mimicking someone else’s standard is signaling to be willing to compete and hence should price lower. Plus, there are no ‘firms’ in our setting, but just random offers: learning by firms could bring them to choose to stick to common standards, thus pushing also consumers to do so.</p>
+<p>So we know that consumers do make use of common standard information. What we still do not know is whether firms would move along the path to competition or to confusopoly. Theoretically, they should go for competition – confusopoly is not stable. Empirically, we still don’t know. But while we are busy investigating just that, you might <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2149615" title="Crosetto Gaudeul Working Paper">give a look at our paper</a>.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>competition</category>
+  <category>choice process</category>
+  <guid>https://paolocrosetto.github.io/blog/2011-11-01-competition-vs-confusopoly/</guid>
+  <pubDate>Mon, 31 Oct 2011 23:00:00 GMT</pubDate>
+  <media:content url="https://paolocrosetto.github.io/blog/2011-11-01-competition-vs-confusopoly/img/cs2.png" medium="image" type="image/png" height="53" width="144"/>
+</item>
+</channel>
+</rss>

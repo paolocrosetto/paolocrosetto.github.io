@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2021-04-12">
+<meta name="description" content="Scraped data on special issues and turnaround times at the 74 MDPI journals with an Impact Factor, and why I think MDPI’s model is aggressive rent extraction rather than outright predation, and why it is not sustainable.">
+
+<title>Is MDPI a predatory publisher? – Paolo Crosetto</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0926ddc75e4656a08d437c8874b4cb03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b063345b33d9617df05a62491bcb1f53.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0926ddc75e4656a08d437c8874b4cb03.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c89c1e4e0bbe9d17dd7ac0c8be619552.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-e28e850d635c8ead0abd92c829831088.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-c89c1e4e0bbe9d17dd7ac0c8be619552.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<meta property="og:title" content="Is MDPI a predatory publisher? – Paolo Crosetto">
+<meta property="og:description" content="Scraped data on special issues and turnaround times at the 74 MDPI journals with an Impact Factor, and why I think MDPI’s model is aggressive rent extraction rather than outright predation, and why it is not sustainable.">
+<meta property="og:image" content="https://paolocrosetto.github.io/blog/2021-04-12-mdpi-predatory-publisher/img/overall_articles_si_waffle.png">
+<meta property="og:site_name" content="Paolo Crosetto">
+<meta property="og:image:height" content="1800">
+<meta property="og:image:width" content="1670">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title"><strong>Paolo Crosetto</strong></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://mapy.com/s/pevavesoso"> <i class="bi bi-geo-alt-fill" role="img" aria-label="Office location">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=whPRYPAAAAAJ"> <i class="bi bi-mortarboard-fill" role="img" aria-label="Google Scholar">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/paolocrosetto"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/paolo-crosetto-0216755"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/profile/paolocrosetto.bsky.social"> <i class="bi bi-bluesky" role="img" aria-label="Bluesky">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:paolo.crosetto@inrae.fr"> <i class="bi bi-envelope-fill" role="img" aria-label="Email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../docs/CV_Paolo_Crosetto.pdf" target="_blank"> 
+<span class="menu-text"><i class="ai  ai-cv" aria-label="cv"></i></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publication/index.html"> 
+<span class="menu-text"><strong>Publications</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/index.html"> 
+<span class="menu-text"><strong>Projects</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching/index.html"> 
+<span class="menu-text"><strong>Teaching</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../coauthors.html"> 
+<span class="menu-text"><strong>Coauthors</strong></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog/index.html"> 
+<span class="menu-text"><span class="nav-blog"><strong>Blog</strong></span></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">In this post</h2>
+   
+  <ul>
+  <li><a href="#tldr-main-message" id="toc-tldr-main-message" class="nav-link active" data-scroll-target="#tldr-main-message">Tl;dr: main message</a></li>
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link" data-scroll-target="#the-problem">The problem</a></li>
+  <li><a href="#mdpis-growth-how" id="toc-mdpis-growth-how" class="nav-link" data-scroll-target="#mdpis-growth-how">MDPI’s growth: how?</a>
+  <ul class="collapse">
+  <li><a href="#an-explosion-of-special-issues" id="toc-an-explosion-of-special-issues" class="nav-link" data-scroll-target="#an-explosion-of-special-issues">An explosion of Special Issues</a></li>
+  <li><a href="#a-coordinated-reduction-of-turnaround-times" id="toc-a-coordinated-reduction-of-turnaround-times" class="nav-link" data-scroll-target="#a-coordinated-reduction-of-turnaround-times">A coordinated reduction of turnaround times</a></li>
+  </ul></li>
+  <li><a href="#mdpis-growth-why" id="toc-mdpis-growth-why" class="nav-link" data-scroll-target="#mdpis-growth-why">MDPI’s growth: why?</a></li>
+  <li><a href="#an-unsustainable-aggressive-rent-extraction-model" id="toc-an-unsustainable-aggressive-rent-extraction-model" class="nav-link" data-scroll-target="#an-unsustainable-aggressive-rent-extraction-model">An unsustainable, aggressive rent extraction model</a></li>
+  <li><a href="#what-if-i-am-wrong" id="toc-what-if-i-am-wrong" class="nav-link" data-scroll-target="#what-if-i-am-wrong">What if I am wrong?</a></li>
+  <li><a href="#methods-data-and-code" id="toc-methods-data-and-code" class="nav-link" data-scroll-target="#methods-data-and-code">Methods, data and code</a></li>
+  <li><a href="#additional-tables-and-data" id="toc-additional-tables-and-data" class="nav-link" data-scroll-target="#additional-tables-and-data">Additional Tables and Data</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Is MDPI a predatory publisher?</h1>
+    <div class="quarto-categories">
+        <div class="quarto-category">scientific publishing</div>
+      </div>
+  </div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">12 April 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+<div class="blog-related mt-3">
+<span class="blog-related-label">Related</span>
+<div class="d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Related pages">
+<a href="https://github.com/paolocrosetto/MDPI_special_issues" class="btn btn-secondary"><i class="bi bi-github me-1"></i> Data &amp; code</a>
+<a href="../../publication/strain/" class="btn btn-secondary"><i class="bi bi-file-richtext-fill me-1"></i> The Strain on Scientific Publishing · QSS 2024</a>
+<a href="../../projects/drain/" class="btn btn-secondary"><i class="bi bi-lightbulb-fill me-1"></i> Project · The Drain of Scientific Publishing</a>
+<a href="../../projects/eaa/" class="btn btn-secondary"><i class="bi bi-lightbulb-fill me-1"></i> Project · Guest editors &amp; special issues</a>
+<a href="../../teaching/publishing/" class="btn btn-secondary"><i class="bi bi-easel2-fill me-1"></i> Talk · Scientific Publishing 101</a>
+</div>
+</div>
+
+</header>
+
+
+<div class="ported-note callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Originally published on my old blog, <a href="https://paolocrosetto.wordpress.com/2021/04/12/is-mdpi-a-predatory-publisher/">paolocrosetto.wordpress.com</a>, on 12 April 2021. The comment thread (including Volker Beckmann’s replies mentioned below) is still there. For my later work on scientific publishing, see <a href="../../publication/strain/">The Strain on Scientific Publishing</a>, <a href="../../projects/drain/">The Drain of Scientific Publishing</a> and <a href="../../projects/eaa/">guest editors publishing in their own special issues</a>.</p>
+</div>
+</div>
+</div>
+<p><strong>Edit April 20th, 2021:</strong> thanks to <em><a href="https://twitter.com/ChristosCPetrou">Christos Petrou</a> I found a bug in my code. I was considering both “Section” and “Collection” articles as Speical Issue. The whole analysis has been changed to accommodate the new data. I also acknowledged in the text the arguments of Volker Beckmann, who develops a coherent defense of MDPI practices and disagrees with my overall take; and inserted references to what MDPI (and traditional publishers) are doing for the Global South inline at the end of the piece, thanks to input from Mister Sew, Ethiopia.</em></p>
+<p>This post is about <a href="https://www.mdpi.com/">MDPI</a>, the Multidisciplinary Digital Publishing Institute, an Open-Access only scientific publisher.</p>
+<p>The post aims to answer the question in the title: “<em>Is MDPI a predatory publisher?</em>” with some data I scraped from the MDPI website, and some personal opinions.</p>
+<section id="tldr-main-message" class="level2">
+<h2 class="anchored" data-anchor-id="tldr-main-message">Tl;dr: main message</h2>
+<p>So, is MDPI predatory or not? I think it has elements of <strong>both</strong>. I would name their methods <strong>aggressive rent extracting</strong>, rather than predatory. And I also think that their current methods &amp; growth rate are likely to make them shift towards <strong>more predatory</strong> over time.</p>
+<p>MDPI publishes good papers in good journals, but it also employs some strategies that are proper to predatory publishers. I think that the success of MDPI in recent years is due to the creative combination of these two apparently contradicting strategy. One — the good journals with high quality — creates a rent that the other — spamming hundreds of colleagues to solicit papers, an astonishing increase in Special Issues, publishing papers as fast as possible — exploits.This strategy makes a lot of sense for MDPI, who shows strong growth rates and is <em>en route</em> to become the largest open access publisher in the world. But I don’t think it is a sustainable strategy. It suffers from basic collective action problems, that might deal a lot of damage to MDPI first, and, most importantly, to scientific publishing in general.</p>
+<p>So that’s the punchline. Care to see where it stems from? In the following I will</p>
+<ul>
+<li>focus on the terms of the problem;</li>
+<li>develop an argument as to <em>how</em> the MDPI model works;</li>
+<li>try to give some elements as to <em>why</em> the model was so successful;</li>
+<li>explain why I think the model is <em>not sustainable</em> and is bound to get worse over time.</li>
+</ul>
+<p>I’ll do so using some intuitions from social dilemmas and econ 101, a handful of personal ideas, and scraped data from MDPI’s website. The data cover the 74 MDPI journal that have an Impact Factor. They represent about 90% of all MDPI published articles in 2020 (somewhat less for the previous years, as MDPI growth has concentrated in their bigger journals. You find the data &amp; scripts to reproduce the analysis in the <a href="https://github.com/paolocrosetto/MDPI_special_issues">dedicated github page</a>.</p>
+<p>Ready? Let’s go.</p>
+</section>
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The problem</h2>
+<p>Scientists are by and large puzzled by MDPI.</p>
+<p>On the one hand, MDPI publishes journals with high impact factor (18 journals have an IF higher than 4) many of which are indexed in Web of Science. Many, if not most papers are good. Several distinguished colleagues in nearly all fields served as Guest Editors or as Editors for their journals, often reporting positive assessments. MDPI is Open Access, so it does not contribute to the <em>very</em> lucrative rent-extraction at the base of Elsevier &amp; other traditional publishers. MDPI’s editing is fast, reliable, professional; publication on the website is swift, efficient and smooth — all things that are hard to say of other, traditional, publishers. Several MDPI journals are included in the rankings used by different states to evaluate research and grant promotions to academics, for instance Sustainability is “classe A”, the highest possible rank, in Italy (source: <a href="https://www.anvur.it/wp-content/uploads/2018/04/Area_08_CLA_V_quad.pdf">ANVUR</a>).</p>
+<p>On the other hand, MDPI is known for aggressively spamming academics to edit special issues, often in fields that are far away from the expertise of the recipient of the frequent and insisting emails. Twitter is full of colleagues complaining that they get several invitations <em>per week</em> to contribute to journals they didn’t know existed and that lie outside of their domains, for instance <a href="https://twitter.com/MartinKNielsen/status/1380190718392590337?s=20">here</a>, <a href="https://twitter.com/Azofra_LM/status/1374027425630261250?s=20">here</a> or <a href="https://twitter.com/BadAlderman/status/1291717423993950208?s=20">here</a>. MDPI even <a href="https://twitter.com/Jeffrey_Beall/status/1376534050656018435?s=20">asked Jeffrey Beall</a>, the author of <a href="https://beallslist.net/">Beall’s list of predatory publishers</a>, to edit a Special Issue in a field that is not his own. It gets further than annoying emails, though. In 2018 the whole editorial board of Nutrients, one of the most prestigious MDPI journals, <a href="https://www.sciencemag.org/news/2018/09/open-access-editors-resign-after-alleged-pressure-publish-mediocre-papers#:~:text=All%2010%20senior%20editors%20of,of%20mediocre%20quality%20and%20importance.">resigned en-masse</a> lamenting pressures from the publisher to lower the quality bar and let in more papers.</p>
+<p>This duality has generated some debates in several different places, among others in two posts by Dan Brockington <a href="https://danbrockington.com/2020/07/23/mdpi-journals-2015-to-2019/">here</a> and <a href="https://danbrockington.com/2019/12/04/an-open-letter-to-mdpi-publishing/">here</a>, in a <a href="https://ideas4sustainability.wordpress.com/2020/10/30/why-not-to-publish-in-sustainability-and-youre-welcome-to-share-this-post/">post on the ideas4sustainability</a> blog by Joern Fischer, and in the <a href="https://scholarlykitchen.sspnet.org/2020/08/10/guest-post-mdpis-remarkable-growth/">scholarly kitchen blog</a>.</p>
+<p>A predatory publisher is a journal that would publish anything — usually in return for money. MDPI rejection rates make this argument hard to sustain. Yet, MDPI is using some of the same techniques of predatory journals. So the question is simple: if you are a scientist, should you work with MDPI? Submit your paper? Review? (Guest) edit for them? Is MDPI predatory?</p>
+</section>
+<section id="mdpis-growth-how" class="level2">
+<h2 class="anchored" data-anchor-id="mdpis-growth-how">MDPI’s growth: how?</h2>
+<p>MDPI has had an impressive growth rate in the last years. It went from publishing 36 thousand articles in 2017 to 167 thousands in 2020. MDPI follows the APC publishing model, whereby accepted articles have to pay an Article Processing Charge (APC) before they are published. The APC has increased over time at MDPI. It can go up to more than 2000 CHF — MDPI is based in Switzerland — but there are several waivers and discounts. MDPI reports the average APC per article in 2020 amounted to 1180 €. Calculations by Dan Brockington show their revenue increasing from 14 mln $ in 2015 to 191 mln $ in 2020.</p>
+<p>To know more about them, see their <a href="https://res.mdpi.com/data/2020_web.pdf">Annual Report 2020</a>.</p>
+<p>How did MDPI reach such high levels of growth? By cleverly exploiting the publish or perish policy widespread in academia, the fact that several countries mandate or suggest Open Access publications, and the rise of formal requirements for tenure and promotion within academia. But this state of affairs is independent of MDPI and anyone could have profited from it, though didn’t. So how?</p>
+<p>As far as I can see, the success of MDPI relies on two key pillars: a lot of <strong>special issues</strong> and a very <strong>fast turnaround</strong>.</p>
+<section id="an-explosion-of-special-issues" class="level3">
+<h3 class="anchored" data-anchor-id="an-explosion-of-special-issues">An explosion of Special Issues</h3>
+<p>Traditional journals have a fixed number of issues per year — say, 12 — and then a low to very low number of special issues, that can cover a particular topic, celebrate the work of an important scholar, or collect papers from conferences. MDPI journals tend to follow the same model, only that the number of special issues has increased in time, to the point of equaling, surpassing, and finally dwarfing the number of normal issues. Moreover, special issues are usually proposed by a group of scientists to the editors of the journal, who accept or reject the offer. At MDPI, it is the <em>publisher</em> who sends out invitations for Special Issue, and it is unclear which role, if any, the editorial board of the normal issues has in the process.</p>
+<p>Virtually all of MDPI’s growth in the last years can be traced back to Special Issues.</p>
+<p>The figure below shows the growth in articles for 74 journals with an IF at MDPI, dividing them between articles published in normal issues, special issues, collections and sections. Sections are a way to create several distinct branches of a sigle journal. Collections seem more similar to special issues, since they have their own collection editor. Special issues covered already the majority of papers in 2017 (it was not so earlier on, but I have article data from 2017 only), but grew rapidly from then on. While the number of normal issue articles increased 2.6 times between 2016 and 2020, the number of SI articles increased 7.5 times. At the same time, the number of articles in Sections increased 9.6 times, while Collections increased by 1.4 times. Articles in SI now account for 68.3% of all articles published in these 74 journals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/overall_articles_si_waffle.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+<p>MDPI journals are becoming more differentiated, through the use of Sections, and they rely more and more on special issues.</p>
+<p>The explosive SI growth is reflected also in the number of special issues, overall (table) and by journal (figure).</p>
+<table class="caption-top table">
+<caption>Number of Special Issues at 74 MDPI journals with an IF. * open special issues with a closing date in 2021</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">2013</th>
+<th style="text-align: center;">2014</th>
+<th style="text-align: center;">2015</th>
+<th style="text-align: center;">2016</th>
+<th style="text-align: center;">2017</th>
+<th style="text-align: center;">2018</th>
+<th style="text-align: center;">2019</th>
+<th style="text-align: center;">2020</th>
+<th style="text-align: center;">2021*</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">388</td>
+<td style="text-align: center;">475</td>
+<td style="text-align: center;">710</td>
+<td style="text-align: center;">990</td>
+<td style="text-align: center;">1386</td>
+<td style="text-align: center;">2342</td>
+<td style="text-align: center;">4096</td>
+<td style="text-align: center;">6756</td>
+<td style="text-align: center;">39587</td>
+</tr>
+</tbody>
+</table>
+<p>Across the 74 journals, there were 388 Special Issues in 2013, about five per journal. In 2020, there were 6756 SIs, somewhat less than a <em>hundred</em> per journal. The provisional data for march 2021 counts 39687 SIs that are open and awaiting papers — about <em>500 per journal</em>. Not all of them will go through — many will fail to attract papers, others will be abandoned by the Guest Editors — but in all likelihood SIs in 2021 will be much more numerous than in 2020.</p>
+<p>SIs increase at all journals, in some cases exponentially. Some have unbelievably high number of SIs. In March 2021, <em>Sustainability</em> had 3303 open Special Issues (compared to 24 normal issues). These are 9 SIs <em>per day</em>, just for <em>Sustainability</em>. 32 MDPI journals have more than 1 open SI in 2021 <em>per day</em>, including Saturday and Sundays.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/mdpi_special_issues_2013-21_april2021.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>The “Journal Growth” table in the data appendix at the end of this post reports the growth of articles and number of SIs for each MDPI journal that published at least 100 articles in 2020. It also shows the share of articles that appear in SI rather than in the normal issues. This share has followed different paths in different journals, mainly because of the rise of Sections and Collections, but is still very high for virtually all journals.</p>
+<section id="are-special-issues-a-problem" class="level4 unlisted">
+<h4 class="unlisted anchored" data-anchor-id="are-special-issues-a-problem">Are Special Issues a problem?</h4>
+<p>SIs are good because they pack together similar articles, increasing the readability of an ever-growing literature. They can contribute to the birth or growth of research teams, consolidate networks or help build new ones, and be a place where to carry out interdisciplinary research, that is often squeezed out of traditional disciplinary journals.</p>
+<p>But they ought to be <em>special</em>, as the name says, and they ought to be under the control of the original editorial boards. In most (if not all) non-MDPI journals, the SIs are managed by the journal’s editorial board, together with the guest editors. Not so at MDPI. It is the <strong>publisher</strong> that sends out the invites (often, mass-sending them without much regard to the appropriateness of the invitations). This, coupled with the exponential explosion of SIs, marginalises the editors of the original journal. The people that created the reputation of the journal in the first place are sidestepped by an army of MDPI-invited Guest Editors.</p>
+<p>While I will discuss later the implications of the SI model adopted by MDPI, I think the data prove beyond doubt that the most important MDPI journals are turning into collection of sometimes loosely related Special Issues at an accelerated pace. Normal issues are disappearing.</p>
+</section>
+</section>
+<section id="a-coordinated-reduction-of-turnaround-times" class="level3">
+<h3 class="anchored" data-anchor-id="a-coordinated-reduction-of-turnaround-times">A coordinated reduction of turnaround times</h3>
+<p>Traditional publishers can be extremely sluggish in their turnaround. Scientists share horror stories about papers stuck in review for years. The situation is particularly bad in some fields (economics: I’m looking at you) but it is generally less than optimal.</p>
+<p>MDPI prides itself on its very fast turnaround times. In the Annual Report 2020 MDPI reports an average time to a first decision of 20 days. This is <em>extremely</em> fast. A paper after submission must be assigned to an editor; this editor has to find an associate editor (or not), and then find referees. It is hard to find the correct people to review a paper, and these might be not available. Once the referees have been found and have accepted, they need time to make their report. Then the editor has to read the reports and make a decision. 20 days is <em>really</em> fast.</p>
+<p>But MDPI does not provide aggregate statistics on the time from submission to acceptance. This includes revisions, and is crucial to understand how the editorial process works. To get this data, I scraped MDPI’s website. The information is public — for each paper, we know the submission date, the date when the revised version was received, and the acceptance date. The aggregate results are shown in the figure below. Three main takeaways: 1. there is not much difference between normal, special issues, sections and collections. 2. MDPI managed to halve the turnaround times from 2016 to 2020. 3. the variance across journals has gone down at the same time as the mean.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/overall_lag-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>But these are just means. Surely there is a lot of heterogeneity in the turnaround, and <em>some</em> papers will take their time. There could be hidden heterogeneity also by field — economists have shown to have different reviewing times and practices than, say, virologists. Let’s have a look.</p>
+<p>Below is the <a href="https://wellcomeopenresearch.org/articles/4-63">raincloud plot</a> of the overall distribution (cut at 150 days, for the sake of visualisation. This leaves out about 3% of the papers in 2016, but, a further indication of the shrinking of turnaround times, only 0.3% of papers in 2020). On the left, each point is a paper. On the right, you see the kernel density estimation. There <em>is</em> heterogeneity, but it is rather low, and it is being dramatically reduced. The rather flat distribution of 2016 has been replaced by a very concentrated distribution in 2020. The distributions for normal and special issues are similar, with some more variance for SI articles.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/lag_distro-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<p>Are there differences by journal, or field? After all we are talking here of different people, from different fields, and thinking back to the SI explosion, at an army of heterogeneous and uncoordinated guest editors. Below you find the distribution of turnaround times for the main MDPI journals (cut to 150 days).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/lag_ridge_new_colors.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></p>
+</figure>
+</div>
+<p>The really striking finding here is that there is <em>virtually no heterogeneity left</em>. The picture from 2016 is as you’d expect: fields differ, journals differ. Some journals have faster, other slower turnaround times. Distributions are quite flat, and anything can happen, from a very fast acceptance to a very long time spent in review. Fast forward to 2020, and it is a very different world. Each and every journal’s turnaround times’ distribution shrinks, and hits an upper bound around 60 days. The mean is similar everywhere, the variance not far off.</p>
+<p>This convergence cannot happen without strong, effective coordination. The data unambiguously suggest that MDPI was very effective at imposing fast turnaround times for <em>every one</em> of their leading journals. And this despite the fact that given the Special Issue model, the vast majority of papers are edited by a heterogeneous set of hundreds of different guest editors, which should <em>increase</em> heterogeneity.</p>
+<p>So: hundreds of different editorial teams, on dozens of different topics, and one common feature: about 35 days from submission to acceptance, <em>including revision</em>s. The fact that revisions are included makes the result even more striking. I am surely slow, but for none of my papers I would have been able to read and understand the reports, run additional analyses, read further papers, change the wording and/or the tables, and resubmit within <em>one week</em> of receiving the reports — unless revisions were really minor. Can revision be minor for so many papers?</p>
+<p>About 17% of all papers at MDPI in 2020 — this is 25k papers — are accepted within 20 days of submissions, <em>including revisions</em>. 45% — this is 66k papers — within 30 days. A (too much) detailed table in the data appendix at the end of the post shows turnaround times for all top MDPI journals. Its main point is to provide full info for particular journals, but also to highlight how little variance there is.</p>
+<section id="is-it-bad-to-have-very-fast-turnaround-times" class="level4 unlisted">
+<h4 class="unlisted anchored" data-anchor-id="is-it-bad-to-have-very-fast-turnaround-times">Is it bad to have very fast turnaround times?</h4>
+<p><em>Per se</em>, no. Fast turnaround is clearly an asset, and MDPI shines in this. They did cut all the slack to referees and editors, and this could be a good thing — papers usually spend most of their editorial lives, unread, in the drawers of busy referees and editors (economists, I am again looking at you).</p>
+<p>But cutting editorial and referee times is good for science <strong>only</strong> <strong>if</strong> the quality of the peer review can be kept up even at this very fast pace. A well written referee report might take several days. People are busy with their lives and do not have just referee reports to write; good scientists’ time is scarce. Editorial decisions can also take time. All but the smallest revisions require substantial amounts of time.</p>
+<p>Again, I will expand below on the implications of these extremely short lags, but let’s note that lags have decreased for <em>all</em> journals in a coordinated way and are now at the lower limit of what is compatible with quality reviews + revisions.</p>
+</section>
+</section>
+</section>
+<section id="mdpis-growth-why" class="level2">
+<h2 class="anchored" data-anchor-id="mdpis-growth-why">MDPI’s growth: why?</h2>
+<p>How could MDPI grow so much?</p>
+<p>Whenever something sells so fast, the answer is trivial: demand. What MDPI sells is obviously in high and growing demand. It wouldn’t be enough for MDPI to try to sell it if there weren’t scientists picking it up. But what do they sell that competitors don’t?</p>
+<p>MDPI sells high acceptance rates and very fast turnaround times, in special issues that are very likely to match your specific field and ran by a colleague you know, within journals that have a decent-to-high impact factor and that count in the official rankings of several universities and public agencies in the western world. Exactly what scientists all over the planet, and especially in developing economies, need to keep competing in the publish or perish landscape of modern academia.</p>
+<p>Getting into the details. Is acceptance high? it is at around 50% at most MDPI journals. While this is far from predatory practices (that would be 100%) and shows that MDPI journals <em>do</em> reject papers, acceptance rates are an order of magnitude higher than in most, say, economics journals.</p>
+<p>Does MDPI cover all niches? The very fine grid of Special Issue guarantees that you’ll find an SI that seems tailored for you — if not, you can always accept MDPI’s invitation and tailor one to suit yourself. Impact Factor is high and the fact that the journals count in national rankings covers your back. It’s a winning game.</p>
+<p>The Special Issue model is key in providing incentives to contribute effort and to submit papers. Doing some serious editing activity is a requirement for tenure in many countries, so mid-career scientists will find the offer appealing; it offers an easy way to publish papers from multi-disciplinary groups often required to obtain research funds. At the same time, you are more likely to send your paper to a previously not known journal if a colleague you know runs the Special Issue. Overall, the Special Issue generates incentives and increases trust in the system. It also motivates editors to convince fellow scientists to contribute.</p>
+<p>The second key element is the high Impact Factor of the top MDPI journals. The system wouldn’t work if there was no quality indicator. The high IF is what covers the scientists backs with respect to their funding agencies, employers, and colleagues. Yes, it’s not Nature. Yes, it’s not an exclusive top journal in my field. But look it has a good IF and it is growing. [and look, Dr.&nbsp;X invited me.] Must be good.</p>
+<p>The fast turnaround time and the high acceptance rate are the icing on the cake: you have very high chances of getting a publication in what for academics is the blink of an eye.</p>
+<p>As a firm, MDPI should be admired for pulling this extremely effective strategy. MDPI created a handful of journals with high IF from scratch. They devised the SI-based model. They managed to cut all slack times to zero and deliver an efficient workflow — mean times from acceptance to publication are down to 5 days in 2020 from nearly 9 days in 2016.</p>
+<p>Still, I think this model is not sustainable, and stand a high chance of collapsing. It’s simple, really: it will likely collapse because journal reputation is a common pool resource — and MDPI is overexploiting it.</p>
+</section>
+<section id="an-unsustainable-aggressive-rent-extraction-model" class="level2">
+<h2 class="anchored" data-anchor-id="an-unsustainable-aggressive-rent-extraction-model">An unsustainable, aggressive rent extraction model</h2>
+<p>MDPI is sitting on a large rent — it controls access to something that is in demand and for which it faces little competition. The rent is created by perverse incentives in the academic system, where publications in high IF journals is at a very large premium, since careers and research financing depend on it. Thanks to their past efforts, MDPI sits on several dozen journals with moderate-to-high IF and good reputations.</p>
+<p>They could have chosen to continue business as usual, slowly increasing the number of papers and the reputation. This is what a traditional publisher like Elsevier would have done. Elsevier makes money by selling subscriptions. The value of the subscription is given by the gems in your journal basket. So you take care of the gems, and never let them lose their shine. But MDPI sells no subscription. It makes money by the paper, and so chose instead to exponentially increase the papers at their gem journals.</p>
+<p>MDPI strategy boils down to exploiting their rent, as fast and aggressively as they can, through the Special Issue model. The original journals’ reputations are used as bait to lure in hundreds of SIs, and thousands of papers, in a growth with no limit in sight.</p>
+<p>Despite the best efforts and good faith of MDPI and of all the guest editors and authors involved, the quality of journals that are inflated so much and in this uncontrolled way is bound to go down. Thousands of SI generate a collective action problem: each individual guest editor has an incentive to lower a tiny bit the bar for his or her own papers or those of his or her group. As we know from Elinor Ostrom’s Nobel Prize winning work, collective action and common resources need careful governance lest the system break down. MDPI has chosen to give control of the reputation of its journals to hundreds of guest editors, with just loose or no control from the original editors, who were responsible for the journal reputation in the first place and who are also in the process drowned by a spiraling number of additional board members. Even if the vast majority of those aim for quality, the very fast turnaround times make it harder. MDPI made things worse by sending mass spam invitations to nearly every scientists on the planet to edit special issues, thus increasing the chance of getting on board less than conscientious guest editors that will exploit the system. When the system showed to work (that’s 2018 and 2019), MDPI doubled down sending even more invites (that’s 2020) and recently flooring the accelerator and mass-inviting special issues (500 <em>per journal</em> in 2021).</p>
+<p>This is not sustainable, because it is <em>impossible</em> that there are enough good papers to sustain the reputations of <em>any</em> journal at 10 SIs per day. And even if there were, the incentives are set for guest editors to lower the bar. Reputation is a common pool resource, and the owner of the pool just invited everyone on sight to take a share.</p>
+<p>If MDPI were a music major, this strategy would amount to, first, putting in effort to sign a dozen of very popular bands, and then, once the reputation is in place ask their friends (or indeed anyone with a guitar) to produce more records under the name of the rock stars, for a low fee. Musicians of all levels jumped in. U2 this year released one album, but there are 400 invited bands releasing their albums under the U2 franchise. Buy the records, they are all as good as the original!</p>
+<p>I don’t know why MDPI is so aggressive in rent exploiting. They could have done it more slowly, and still reap substantial profits. The former CEO Franck Vazquez said in 2018 when the Nutrients Editorial Board resigned that he “<em>would be stupid to kill his cash cow</em>” (<a href="https://www.sciencemag.org/news/2018/09/open-access-editors-resign-after-alleged-pressure-publish-mediocre-papers#:~:text=All%2010%20senior%20editors%20of,of%20mediocre%20quality%20and%20importance.&amp;text=He%20resigned%20immediately%2C%20and%20nine%20other%20senior%20editors%20followed.">source</a>). This rings true: why so aggressively exploiting their rent, knowing that reputation can decrease fast if journals are inflated? Still, the data show beyond doubt that MDPI is milking its bigger journals at increasing rates.</p>
+<p>Economics offers some cues as to why aggressive rent extraction might be the best strategy for a firm in the situation of MDPI. In general, when you have a rent but feel that it might soon vanish, it is your best move to suck it dry, fast. It is the economic reason behind the fact that movie sequels suck, or that second albums are usually worse than the first. It is not the only reason, of course. But developing a good, say, teenage dystopian movie increases the likelihood that other producers will jump in on the fashion and copy you; and each further movie exploiting your trope decreases your rent, giving you incentives to hasten the production of your sequel, and market it when it’s not ready. If it is easy to copy your model, you’d better be your own cheap imitation brand, rather than waiting for others to take that role (incidentally, this mechanism is at work also in the fashion industry, as masterfully described in <a href="https://www.theguardian.com/books/2008/jan/12/crime.mafia">Roberto Saviano’s Gomorrah</a> and confirmed by this <a href="https://www.tandfonline.com/doi/abs/10.1080/17440570601014529?journalCode=fglc20">criminology paper</a>).</p>
+<p>Why would MDPI think that their rent will vanish? I don’t know. I suspect it might have to do with the recent move to Open Access of the main traditional publishers, that are opening OA subsidiary of their main non-OA journals. Or to the increasing acceptance of repositories as arXiv as legitimate “publications”, that would make the whole “publisher” concept history. But that’s just a hunch, I have really no clue.</p>
+<p>Whatever the reason, I think that MDPI is aggressively exploiting its rent. It is not predatory in the sense of publishing everything for money. Still, it is a misleading and dangerous practice. The reason why academics are puzzled by MDPI, and you can find people defending the quality of the papers and the special issues they read and/or were involved with and, <em>at the same time</em>, people that completely loath MDPI and deem it rubbish and predatory, is that MDPI is <em>both things at the same time</em>.</p>
+<p>The problem is that bad money always crowds out good money. With MDPI pushing the SI model faster and faster, the balance will shift sooner rather than later towards deeming MDPI not worth working with.</p>
+</section>
+<section id="what-if-i-am-wrong" class="level2">
+<h2 class="anchored" data-anchor-id="what-if-i-am-wrong">What if I am wrong?</h2>
+<p>I might be wrong. There are many good sides of the OA model that MDPI adopts.</p>
+<p>It is more inclusive, for one. It breaks the gate-keeping that is done by the small academic elites that control the traditional journals in many disciplines. It probably makes no sense in the 21st century to limit the number of articles in journals to, say, 60 a year, because back in the 20th century we printed the journals and space was at a premium, so breaking the (fictional and self-imposed) quantity constraint is a good thing.</p>
+<p>All the above rings even more true for academics from the global South, that face even higher hurdles to publish in the rather closed and limited traditional journal. Mister Sew from Ethiopia has provided me with several references on how and how much traditional publishers exclude researchers from the Global South. Non Euro/West researchers account for as low as 2% of published papers, and have virtually no representation in editorial boards. Some traditional publishers deny access to IPs from several African countries. References <a href="https://www.ingentaconnect.com/content/bup/ejpg/2018/00000001/f0020001/art00003">here</a>, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0959378016302412">here</a>, <a href="https://ojs.library.carleton.ca/index.php/nokoko/article/view/2533">here</a> and in a special collection of articles on the role of OA for the global South <a href="https://onlinelibrary.wiley.com/toc/14677660/2021/52/2">here</a>. MDPI features a much higher share of editors and papers from the Global South, and is as such a liberating force. At the same time, MDPI publication fees are very high and unattainable by researchers from the Global South.</p>
+<p>The special issue model is also very good in many respects. It has potential to be a clever way of organizing science in the digital age. We still live within the empty shells of the 20th century way of publishing science. That gave us another form of rent extraction, traditional publishers with their incredibly high margins on the back of scientists. A more open form of knowledge exchange, leaner, open access, and organized around topics rather than journals can be promising.</p>
+<p>Fast turnaround times across all journals could be a sign of real productivity and logistic advances from MDPI, without affecting the quality of reviews. Those would be extremely welcome and a breath of fresh air in academic publishing.</p>
+<p>Volker Beckmann in the comments made also several arguments as to why in his own view MDPI quality is not going down and will not decrease in the foreseeable future. Check his points out in the comments.</p>
+<p>If you have more thoughts on this and you think I’m wrong, I am happy to hear your thoughts. If you are from MDPI and want to reply, I am even more happy. This (too) long piece is meant as an exploration of an intriguing topic. And to scratch a personal itch, that I got when invited to guest edit for Nutrients, last summer, and was surprised to see how MDPI could be at the same time considered very good and very bad by colleagues.</p>
+</section>
+<section id="methods-data-and-code" class="level2">
+<h2 class="anchored" data-anchor-id="methods-data-and-code">Methods, data and code</h2>
+<p>The scripts to reproduce the analysis and the data are available on the <a href="https://github.com/paolocrosetto/MDPI_special_issues">dedicated github repo</a>. The scrape was performed in march 2021, for the number of SIs, and in April 2021, for the turnaround times. All data is publicly available on MDPI’s website, and I just collected and analyzed what is otherwise public. I would like to thank <a href="https://danbrockington.com/">Dan Brockington</a> for extensive discussion, encouragement, and comments on an early draft of this post. Thanks also to Joël Billieux, Ben Greiner, David Reinstein, and all the colleagues on the ESA-discuss forum for discussions on MDPI and publishing.</p>
+</section>
+<section id="additional-tables-and-data" class="level2">
+<h2 class="anchored" data-anchor-id="additional-tables-and-data">Additional Tables and Data</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/table_si-4.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Journal growth, Special issue growth and share of SI articles on total articles for selected MDPI journals</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/table_lag.png" class="img-fluid figure-img" style="width:70.0%"></p>
+<figcaption>Turnaround times at selected MDPI journals</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/paolocrosetto\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

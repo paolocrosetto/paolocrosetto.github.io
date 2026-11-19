@@ -1,5 +1,19 @@
 [
   {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2025-06-10-springer-nature-discovers-mdpi/index.html",
+      "/blog/2024-03-13-response-to-frontiers/index.html",
+      "/blog/2024-03-13-strain-data-explorer/index.html",
+      "/blog/2021-04-12-mdpi-predatory-publisher/index.html",
+      "/blog/2015-07-01-nutritional-labels-numbers-or-colours/index.html",
+      "/blog/2015-01-22-crowdfunding-dynamics/index.html",
+      "/blog/2014-11-07-price-and-format-competition/index.html",
+      "/blog/2012-05-30-bomb-risk-elicitation-task/index.html",
+      "/blog/2011-11-01-competition-vs-confusopoly/index.html"
+    ]
+  },
+  {
     "listing": "/teaching/index.html",
     "items": [
       "/teaching/ia/index.html",
